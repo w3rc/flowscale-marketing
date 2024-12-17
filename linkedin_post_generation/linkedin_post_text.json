@@ -162,50 +162,6 @@
             ]
         },
         {
-            "id": 23,
-            "type": "Prompt Enhancer",
-            "pos": [
-                -224,
-                565
-            ],
-            "size": [
-                479.874267578125,
-                407.9952392578125
-            ],
-            "flags": {},
-            "order": 1,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 39,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        31,
-                        57
-                    ],
-                    "slot_index": 0,
-                    "shape": 3
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "Prompt Enhancer"
-            },
-            "widgets_values": [
-                "You are a skilled LinkedIn content strategist and copywriter. First, create a single, impactful, attention-grabbing opening line (or two) that acts as the ‘hook’ for a LinkedIn post, based on the given blog article. This hook should immediately attract busy professionals interested in AI, generative technology, and next-level innovation. Start the hook with an exciting emoji (e.g., 🚀) and highlight a remarkable achievement, surprising statistic, or breakthrough moment—something that shows dramatic progress or potential.\n\nNext, using this newly created hook as your foundation, craft a detailed set of bullet-pointed narrative pointers that outline the entire flow of the future post. These pointers will serve as an internal roadmap for the final piece of content (not shown to readers) and should ensure the final LinkedIn post feels like a compelling, cohesive story. The pointers should:\n\nBegin immediately after the hook with a short contextual transition that explains why the achievement is significant and why the reader should care.\nIntroduce a well-known AI tool or model (like something from OpenAI) to set the stage and show industry relevance.\nPresent a lesser-known, open-source tool that can rival or complement the known one, highlighting its unique advantages.\nInclude 3-4 key features or benefits of this solution in a bullet-point format (for the final post), each with an emoji symbol and a concise, punchy statement.\nIncorporate a personal, expert-level workflow tip or trick that improves efficiency, quality, or results, positioning the narrator as a knowledgeable practitioner.\nAnnounce a new product, service, or opportunity tied to the narrator’s brand or business, framing it as a meaningful solution that can help readers leverage the tools just introduced.\nConclude with a strong call-to-action (CTA) that invites readers to take the next step (e.g., booking a session, visiting a link), ensuring the end of the outline sets up a clear and motivating action.\nThe tone throughout these pointers should remain enthusiastic, approachable, and future-oriented—capturing the excitement of emerging technologies while making it easy for readers to understand the value. Keep the instructions clear and structured so it will be easy to transform the pointers into a polished LinkedIn post later.\n\nBlog Article:\n\n",
-                ""
-            ]
-        },
-        {
             "id": 26,
             "type": "Prompt Enhancer",
             "pos": [
@@ -245,7 +201,51 @@
                 "Node name for S&R": "Prompt Enhancer"
             },
             "widgets_values": [
-                "Now, act as a top-tier LinkedIn content creator. Using the outline you previously generated and the hook you crafted, write the full LinkedIn post. Follow these guidelines:\n\nBegin the post with the hook from Prompt 1.\nMove smoothly into the storytelling flow based on the outline from Prompt 2.\nUse an excited, enthusiastic tone that is also professional and credible.\nIncorporate emojis strategically throughout the post to draw the eye and highlight key points. Consider using emojis such as 🚀, ✨, 🌊, 🎬, 🎯, or similar to emphasize excitement, action, and creativity.\nPresent the known industry tool or brand first, then introduce the lesser-known tool as an open-source solution that expands the possibilities.\nHighlight the 3-4 main features or benefits in bullet points. Each bullet should start with an emoji and be one concise yet impactful sentence.\nShare a personal workflow tip that demonstrates your expertise and the care you take in optimizing results.\nAnnounce your new offering or special opportunity and make it sound exclusive, appealing, and highly beneficial.\nEnd with a strong call-to-action that directs readers to take the next step (visiting a link, booking a call, or another desired action), and include a link if appropriate.\nKeep the length of the post to a few short paragraphs plus the bullet points, so it’s easily digestible by LinkedIn readers.\nEnsure the final reading experience feels like a story: starting with excitement, building credibility, presenting a solution, offering value, and then giving the reader a next step to engage.\nMaintain a friendly, encouraging voice that invites the audience to become part of the innovation journey.",
+                "Now, act as a top-tier LinkedIn content creator. Using the outline you previously generated and the hook you crafted, write the full LinkedIn post. Follow these guidelines:\n\nBegin the post with the hook from Prompt 1.\nMove smoothly into the storytelling flow based on the outline from Prompt 2.\nUse an excited, enthusiastic tone that is also professional and credible.\nIncorporate emojis strategically throughout the post to draw the eye and highlight key points. Consider using emojis such as or similar to emphasize excitement, action, and creativity.\nPresent the known industry tool or brand first, then introduce the lesser-known tool as an open-source solution that expands the possibilities.\nHighlight the 3-4 main features or benefits in bullet points. Each bullet should start with an emoji and be one concise yet impactful sentence.\nShare a personal workflow tip that demonstrates your expertise and the care you take in optimizing results.\nAnnounce your new offering or special opportunity and make it sound exclusive, appealing, and highly beneficial.\nEnd with a strong call-to-action that directs readers to take the next step (visiting a link, booking a call, or another desired action), and include a link if appropriate.\nKeep the length of the post to a few short paragraphs plus the bullet points, so itâs easily digestible by LinkedIn readers.\nEnsure the final reading experience feels like a story: starting with excitement, building credibility, presenting a solution, offering value, and then giving the reader a next step to engage.\nMaintain a friendly, encouraging voice that invites the audience to become part of the innovation journey.",
+                ""
+            ]
+        },
+        {
+            "id": 23,
+            "type": "Prompt Enhancer",
+            "pos": [
+                -224,
+                565
+            ],
+            "size": [
+                479.874267578125,
+                407.9952392578125
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 39,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        31,
+                        57
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "You are a skilled LinkedIn content strategist and copywriter. First, create a single, impactful, attention-grabbing opening line (or two) that acts as the âhookâ for a LinkedIn post, based on the given blog article. This hook should immediately attract busy professionals interested in AI, generative technology, and next-level innovation. Start the hook with an exciting emoji and highlight a remarkable achievement, surprising statistic, or breakthrough momentâsomething that shows dramatic progress or potential.\n\nNext, using this newly created hook as your foundation, craft a detailed set of bullet-pointed narrative pointers that outline the entire flow of the future post. These pointers will serve as an internal roadmap for the final piece of content (not shown to readers) and should ensure the final LinkedIn post feels like a compelling, cohesive story. The pointers should:\n\nBegin immediately after the hook with a short contextual transition that explains why the achievement is significant and why the reader should care.\nIntroduce a well-known AI tool or model (like something from OpenAI) to set the stage and show industry relevance.\nPresent a lesser-known, open-source tool that can rival or complement the known one, highlighting its unique advantages.\nInclude 3-4 key features or benefits of this solution in a bullet-point format (for the final post), each with an emoji symbol and a concise, punchy statement.\nIncorporate a personal, expert-level workflow tip or trick that improves efficiency, quality, or results, positioning the narrator as a knowledgeable practitioner.\nAnnounce a new product, service, or opportunity tied to the narratorâs brand or business, framing it as a meaningful solution that can help readers leverage the tools just introduced.\nConclude with a strong call-to-action (CTA) that invites readers to take the next step (e.g., booking a session, visiting a link), ensuring the end of the outline sets up a clear and motivating action.\nThe tone throughout these pointers should remain enthusiastic, approachable, and future-orientedâcapturing the excitement of emerging technologies while making it easy for readers to understand the value. Keep the instructions clear and structured so it will be easy to transform the pointers into a polished LinkedIn post later.\n\nBlog Article:\n\n",
                 ""
             ]
         }
@@ -336,10 +336,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 1.2100000000000006,
+            "scale": 0.8264462809917354,
             "offset": [
-                353.642452834203,
-                -355.0592376057565
+                333.0351003173356,
+                121.03011191584932
             ]
         }
     },
