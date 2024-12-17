@@ -9,13 +9,14 @@
                 -223,
                 3
             ],
-            "size": {
-                "0": 514.3558349609375,
-                "1": 399.65966796875
-            },
+            "size": [
+                514.3558349609375,
+                399.65966796875
+            ],
             "flags": {},
             "order": 0,
             "mode": 0,
+            "inputs": [],
             "outputs": [
                 {
                     "name": "STRING",
@@ -34,104 +35,16 @@
             ]
         },
         {
-            "id": 23,
-            "type": "Prompt Enhancer",
-            "pos": [
-                -224,
-                565
-            ],
-            "size": {
-                "0": 479.874267578125,
-                "1": 407.9952392578125
-            },
-            "flags": {},
-            "order": 1,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 39,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        31,
-                        57
-                    ],
-                    "slot_index": 0,
-                    "shape": 3
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "Prompt Enhancer"
-            },
-            "widgets_values": [
-                "You are a Senior Content Quality Evaluator for AWS Training materials. Your task is to critically assess the following content based on the following criteria:\n\n**1. Clarity:**\n   - Is the language clear and understandable for the target audience?\n   - Are complex concepts explained simply?\n   - Is the structure logical and coherent?\n\n**2. Accuracy:**\n   - Does the content accurately represent AWS services and features?\n   - Are all technical details correct and up-to-date?\n   - Are there any factual errors or misconceptions?\n\n**3. Engagement:**\n   - Is the content engaging and likely to maintain the learner's interest?\n   - Does it include relevant examples, case studies, or analogies?\n   - Are interactive elements or questions used to stimulate thought?\n\n**4. Compliance:**\n   - Does the content adhere to AWS training standards and guidelines?\n   - Is the use of trademarks and proprietary terms correct?\n   - Is the content free from biased or non-inclusive language?\n\nPlease provide a detailed assessment focusing on these criteria.\n\n**Content to Assess:**\n",
-                ""
-            ]
-        },
-        {
-            "id": 26,
-            "type": "Prompt Enhancer",
-            "pos": [
-                284,
-                570
-            ],
-            "size": {
-                "0": 507.71197509765625,
-                "1": 392.9981689453125
-            },
-            "flags": {},
-            "order": 2,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 31,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        58,
-                        60
-                    ],
-                    "slot_index": 0,
-                    "shape": 3
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "Prompt Enhancer"
-            },
-            "widgets_values": [
-                "Based on your assessment, assign a score out of 10 for each of the following criteria. Provide detailed reasoning for each score, citing specific examples from the content. Offer actionable suggestions for improvement where applicable.\n\n**Formatting Guidelines:**\n\n- **Clarity (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n- **Accuracy (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n- **Engagement (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n- **Compliance (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n**Overall Feedback:**\nSummarize the overall quality of the content and its readiness for publication. Highlight any critical issues that need immediate attention.\n\n**Content Evaluated:**\n\n",
-                ""
-            ]
-        },
-        {
             "id": 22,
             "type": "ShowText|pysssss",
             "pos": [
                 750,
                 30
             ],
-            "size": {
-                "0": 389.3231506347656,
-                "1": 311.41253662109375
-            },
+            "size": [
+                389.3231506347656,
+                311.41253662109375
+            ],
             "flags": {
                 "collapsed": false
             },
@@ -160,7 +73,7 @@
             },
             "widgets_values": [
                 "",
-                "**Overall Feedback:**\nThe content evaluated demonstrates a strong grasp of the subject matter and is well-structured for the target audience. It provides accurate information on AWS services and infrastructure in a clear and engaging manner, adhering to industry standards. However, there is room for improvement in enhancing engagement through more interactive elements.\n\n**1. Clarity:**\n- **Score: 9/10**\n  - **Reasoning:** The language used is clear, and complex concepts are explained effectively. The structure is logical and coherent, making it easy to follow.\n  - **Suggestions for Improvement:** Consider incorporating more visual aids or diagrams to further enhance clarity and understanding for visual learners.\n\n**2. Accuracy:**\n- **Score: 10/10**\n  - **Reasoning:** The content is accurate and up-to-date, providing learners with reliable information on AWS services.\n  - **Suggestions for Improvement:** No improvements needed in this criterion.\n\n**3. Engagement:**\n- **Score: 7/10**\n  - **Reasoning:** The content is engaging with practical examples and interactive elements, but additional interactive elements could further enhance learner engagement.\n  - **Suggestions for Improvement:** Incorporate more hands-on exercises, quizzes, or simulations to actively involve learners and reinforce learning.\n\n**4. Compliance:**\n- **Score: 10/10**\n  - **Reasoning:** The content complies with AWS standards and guidelines, using correct trademarks and inclusive language throughout.\n  - **Suggestions for Improvement:** No suggestions for improvement in this criterion.\n\nOverall, the content is well-prepared for publication, with minor adjustments recommended to enhance engagement. By incorporating more interactive elements and visual aids, the content can become even more effective in educating SysOps Administrators on AWS services and infrastructure."
+                "**Formatting Guidelines:**\n\n- **Clarity (Score: 9/10)**\n  - **Reasoning:** The language used in the content is clear and straightforward, making it easy for the target audience to understand complex concepts related to AWS. The logical structure of the content aids in the clarity of the information presented.\n  - **Suggestions for Improvement:** To further enhance clarity, consider incorporating more visual aids such as diagrams or infographics to supplement the text-based explanations.\n\n- **Accuracy (Score: 9/10)**\n  - **Reasoning:** The content demonstrates a high level of accuracy in portraying the role of a SysOps Administrator and explaining key AWS services like EC2, S3, and VPC. There are no apparent factual errors present in the content.\n  - **Suggestions for Improvement:** It would be beneficial to provide real-world examples or case studies showcasing how these AWS services are utilized in practical scenarios to reinforce the accuracy of the information provided.\n\n- **Engagement (Score: 8/10)**\n  - **Reasoning:** The content is engaging due to its comprehensive coverage of essential concepts and skills related to managing AWS services. However, incorporating interactive elements, real-world examples, or questions could further enhance engagement among learners.\n  - **Suggestions for Improvement:** Consider adding interactive quizzes, practical exercises, or discussion questions to encourage active participation and deeper engagement with the content.\n\n- **Compliance (Score: 9/10)**\n  - **Reasoning:** The content adheres to AWS training standards and guidelines by providing accurate and up-to-date information on AWS services. Trademarks and proprietary terms are used appropriately throughout the content.\n  - **Suggestions for Improvement:** To ensure continued compliance with AWS standards, regularly update the content to reflect any changes or new developments in AWS services.\n\n**Overall Feedback:**\nOverall, the content demonstrates strong clarity, accuracy, and compliance with AWS standards. It effectively covers essential concepts related to managing AWS services, but there is room for improvement in enhancing engagement through interactive elements and real-world examples. Continuing to update the content to reflect the latest trends and developments in AWS services will further enhance its quality and relevance for learners. With some additional interactive elements and real-world applications, the content will be well-prepared for publication."
             ]
         },
         {
@@ -170,10 +83,10 @@
                 390,
                 30
             ],
-            "size": {
-                "0": 339.49737548828125,
-                "1": 336.547607421875
-            },
+            "size": [
+                339.49737548828125,
+                336.547607421875
+            ],
             "flags": {
                 "collapsed": false
             },
@@ -202,7 +115,7 @@
             },
             "widgets_values": [
                 "",
-                "**1. Clarity:**\n- The language used in the content is clear and understandable for the target audience of SysOps Administrators. Complex concepts such as automation tools and networking concepts are explained simply, making it easier for learners to grasp the information. The structure of the content is logical and coherent, with a clear progression from an overview of the role to specific topics like networking and security.\n\n**2. Accuracy:**\n- The content accurately represents AWS services and features, including key services like EC2, S3, and VPC. Technical details are correct and up-to-date, providing learners with accurate information on managing AWS infrastructure. There are no factual errors or misconceptions present in the content.\n\n**3. Engagement:**\n- The content is engaging and likely to maintain the learner's interest through its practical examples and case studies. The inclusion of interactive elements like mentions of the AWS Management Console and CloudWatch keeps the content interactive and thought-provoking. However, the content could benefit from more interactive elements to further stimulate learner engagement.\n\n**4. Compliance:**\n- The content adheres to AWS training standards and guidelines by providing accurate information on AWS services and infrastructure. The use of trademarks and proprietary terms is correct throughout the content. The content is free from biased or non-inclusive language, ensuring a welcoming learning environment for all learners.\n\nOverall, the content is well-crafted and informative, providing a comprehensive overview of the SysOps Administrator role and essential AWS topics. Improvements in including more interactive elements could further enhance learner engagement and make the content more dynamic."
+                "**1. Clarity:**\n- The language used in the content is clear and understandable for the target audience, which appears to be individuals interested in or working in the field of AWS.\n- Complex concepts are explained in a simple and straightforward manner, making it easier for learners to grasp.\n- The structure of the content is logical and coherent, with each section focusing on a specific aspect of AWS services and infrastructure management.\n\n**2. Accuracy:**\n- The content accurately represents the role of a SysOps Administrator and their responsibilities within an organization.\n- Technical details regarding key AWS services like EC2, S3, and VPC are correct and up-to-date.\n- There are no apparent factual errors or misconceptions present in the content.\n\n**3. Engagement:**\n- The content is engaging as it provides a comprehensive overview of important concepts and skills needed for managing AWS services.\n- Relevant examples and case studies could enhance the engagement level of the content and help learners connect theoretical knowledge to practical applications.\n- Including interactive elements or questions could further stimulate thought and engagement among learners.\n\n**4. Compliance:**\n- The content appears to adhere to AWS training standards and guidelines by providing accurate information on AWS services.\n- The use of trademarks and proprietary terms seems correct throughout the content.\n- The content is free from biased or non-inclusive language, maintaining a professional and inclusive tone throughout.\n\nOverall, the content provides a thorough overview of the SysOps Administrator role and essential skills needed for managing AWS services and infrastructure effectively. Adding more interactive elements, examples, and case studies could further enhance engagement and retention of the material for learners. Additionally, staying updated on the latest trends and developments in AWS services can ensure the accuracy and relevance of the content."
             ]
         },
         {
@@ -212,10 +125,10 @@
                 1162,
                 49
             ],
-            "size": {
-                "0": 400,
-                "1": 200
-            },
+            "size": [
+                400,
+                200
+            ],
             "flags": {},
             "order": 5,
             "mode": 0,
@@ -245,6 +158,94 @@
                 "file.txt",
                 "append",
                 true,
+                ""
+            ]
+        },
+        {
+            "id": 23,
+            "type": "Prompt Enhancer",
+            "pos": [
+                -224,
+                565
+            ],
+            "size": [
+                479.874267578125,
+                407.9952392578125
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 39,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        31,
+                        57
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "You are a skilled LinkedIn content strategist and copywriter. First, create a single, impactful, attention-grabbing opening line (or two) that acts as the ‘hook’ for a LinkedIn post, based on the given blog article. This hook should immediately attract busy professionals interested in AI, generative technology, and next-level innovation. Start the hook with an exciting emoji (e.g., 🚀) and highlight a remarkable achievement, surprising statistic, or breakthrough moment—something that shows dramatic progress or potential.\n\nNext, using this newly created hook as your foundation, craft a detailed set of bullet-pointed narrative pointers that outline the entire flow of the future post. These pointers will serve as an internal roadmap for the final piece of content (not shown to readers) and should ensure the final LinkedIn post feels like a compelling, cohesive story. The pointers should:\n\nBegin immediately after the hook with a short contextual transition that explains why the achievement is significant and why the reader should care.\nIntroduce a well-known AI tool or model (like something from OpenAI) to set the stage and show industry relevance.\nPresent a lesser-known, open-source tool that can rival or complement the known one, highlighting its unique advantages.\nInclude 3-4 key features or benefits of this solution in a bullet-point format (for the final post), each with an emoji symbol and a concise, punchy statement.\nIncorporate a personal, expert-level workflow tip or trick that improves efficiency, quality, or results, positioning the narrator as a knowledgeable practitioner.\nAnnounce a new product, service, or opportunity tied to the narrator’s brand or business, framing it as a meaningful solution that can help readers leverage the tools just introduced.\nConclude with a strong call-to-action (CTA) that invites readers to take the next step (e.g., booking a session, visiting a link), ensuring the end of the outline sets up a clear and motivating action.\nThe tone throughout these pointers should remain enthusiastic, approachable, and future-oriented—capturing the excitement of emerging technologies while making it easy for readers to understand the value. Keep the instructions clear and structured so it will be easy to transform the pointers into a polished LinkedIn post later.\n\nBlog Article:\n\n",
+                ""
+            ]
+        },
+        {
+            "id": 26,
+            "type": "Prompt Enhancer",
+            "pos": [
+                284,
+                570
+            ],
+            "size": [
+                507.71197509765625,
+                392.9981689453125
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 31,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        58,
+                        60
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "Now, act as a top-tier LinkedIn content creator. Using the outline you previously generated and the hook you crafted, write the full LinkedIn post. Follow these guidelines:\n\nBegin the post with the hook from Prompt 1.\nMove smoothly into the storytelling flow based on the outline from Prompt 2.\nUse an excited, enthusiastic tone that is also professional and credible.\nIncorporate emojis strategically throughout the post to draw the eye and highlight key points. Consider using emojis such as 🚀, ✨, 🌊, 🎬, 🎯, or similar to emphasize excitement, action, and creativity.\nPresent the known industry tool or brand first, then introduce the lesser-known tool as an open-source solution that expands the possibilities.\nHighlight the 3-4 main features or benefits in bullet points. Each bullet should start with an emoji and be one concise yet impactful sentence.\nShare a personal workflow tip that demonstrates your expertise and the care you take in optimizing results.\nAnnounce your new offering or special opportunity and make it sound exclusive, appealing, and highly beneficial.\nEnd with a strong call-to-action that directs readers to take the next step (visiting a link, booking a call, or another desired action), and include a link if appropriate.\nKeep the length of the post to a few short paragraphs plus the bullet points, so it’s easily digestible by LinkedIn readers.\nEnsure the final reading experience feels like a story: starting with excitement, building credibility, presenting a solution, offering value, and then giving the reader a next step to engage.\nMaintain a friendly, encouraging voice that invites the audience to become part of the innovation journey.",
                 ""
             ]
         }
@@ -293,6 +294,7 @@
     ],
     "groups": [
         {
+            "id": 1,
             "title": "LLM Prompt Chaining",
             "bounding": [
                 -250,
@@ -302,9 +304,10 @@
             ],
             "color": "#3f789e",
             "font_size": 24,
-            "locked": false
+            "flags": {}
         },
         {
+            "id": 2,
             "title": "Inputs",
             "bounding": [
                 -250,
@@ -314,9 +317,10 @@
             ],
             "color": "#3f789e",
             "font_size": 24,
-            "locked": false
+            "flags": {}
         },
         {
+            "id": 3,
             "title": "Outputs",
             "bounding": [
                 360,
@@ -326,16 +330,16 @@
             ],
             "color": "#3f789e",
             "font_size": 24,
-            "locked": false
+            "flags": {}
         }
     ],
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.620921323059155,
+            "scale": 1.2100000000000006,
             "offset": [
-                413.5106801990884,
-                203.3206126817115
+                353.642452834203,
+                -355.0592376057565
             ]
         }
     },
