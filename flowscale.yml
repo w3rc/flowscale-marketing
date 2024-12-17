@@ -3,7 +3,15 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
-workflows: []
+workflows:
+  - id: zi0qnk0ztwi
+    name: post_generator_api.json
+    file: linkedin_post_generation/post_generator_api.json
+    version: 1
+    description: ''
+    inputs: []
+    outputs: []
+    skip_preprocess: true
 normal_workflows:
   - id: sb6gcjr6bcc
     name: linkedin_post_text.json
@@ -12,4 +20,4 @@ normal_workflows:
   - id: c21ygp8ggro
     name: post_generator.json
     file: linkedin_post_generation/post_generator.json
-    version: 0
+    version: 1
