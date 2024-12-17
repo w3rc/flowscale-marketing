@@ -9,3 +9,7 @@ normal_workflows:
     name: linkedin_post_text.json
     file: linkedin_post_generation/linkedin_post_text.json
     version: 0
+  - id: c21ygp8ggro
+    name: post_generator.json
+    file: linkedin_post_generation/post_generator.json
+    version: 0
