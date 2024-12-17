@@ -1,0 +1,135 @@
+{
+    "10": {
+        "inputs": {
+            "seed": 505476479946924,
+            "steps": 20,
+            "cfg": 1,
+            "sampler_name": "euler",
+            "scheduler": "normal",
+            "denoise": 1,
+            "model": [
+                "11",
+                0
+            ],
+            "positive": [
+                "28",
+                0
+            ],
+            "negative": [
+                "14",
+                0
+            ],
+            "latent_image": [
+                "29",
+                0
+            ]
+        },
+        "class_type": "KSampler"
+    },
+    "11": {
+        "inputs": {
+            "ckpt_name": "FLUX1/flux1-dev-fp8.safetensors"
+        },
+        "class_type": "CheckpointLoaderSimple"
+    },
+    "13": {
+        "inputs": {
+            "text": [
+                "24",
+                0
+            ],
+            "clip": [
+                "11",
+                1
+            ]
+        },
+        "class_type": "CLIPTextEncode"
+    },
+    "14": {
+        "inputs": {
+            "text": "text, watermark, nsfw",
+            "clip": [
+                "11",
+                1
+            ]
+        },
+        "class_type": "CLIPTextEncode"
+    },
+    "15": {
+        "inputs": {
+            "samples": [
+                "10",
+                0
+            ],
+            "vae": [
+                "11",
+                2
+            ]
+        },
+        "class_type": "VAEDecode"
+    },
+    "16": {
+        "inputs": {
+            "filename_prefix": "ComfyUI",
+            "images": [
+                "15",
+                0
+            ]
+        },
+        "class_type": "SaveImage"
+    },
+    "19": {
+        "inputs": {
+            "string": "### **Slide 3: AWS's Vision and Challenges**\n\n**Content:**\n\n- **Challenges:**\n    - Duplication of logic in point-solutions\n    - Need for reusable modules (nodes)\n    - Non-technical curriculum developers requiring technical tools\n- **Vision:**\n    - AI-driven curriculum development\n    - Workflow orchestration layer\n    - Empowering curriculum developers\n\n**Speaker Notes:**\n\n\"From our discussions, we've learned that your team faces challenges with duplication in point-solutions and the need for reusable modules. Your vision is to have an AI-driven curriculum development process, where non-technical curriculum developers can efficiently assemble content using an orchestration layer. FlowScale is designed to address these exact needs.\""
+        },
+        "class_type": "PromptUtilitiesConstStringMultiLine"
+    },
+    "22": {
+        "inputs": {
+            "text": [
+                "24",
+                0
+            ],
+            "text2": "Scene: \n\nA dystopian cityscape at night, with neon lights illuminating the rainy streets. A lone figure, cloaked in shadows, stands on a rooftop overlooking the city, their cybernetic eyes glowing in the darkness. Below, flying cars zoom past, leaving streaks of light in their wake. In the distance, towering skyscrapers loom, casting long shadows over the city below. The figure's hand grips a futuristic weapon, ready to face whatever threats may come their way in this cyberpunk world."
+        },
+        "class_type": "ShowText|pysssss"
+    },
+    "24": {
+        "inputs": {
+            "base_prompt": "Stable Diffusion is an AI art generation model similar to DALLE-2.\nBelow is a list of prompts that can be used to generate images with Stable Diffusion:\n\n- portait of a homer simpson archer shooting arrow at forest monster, front game card, drark, marvel comics, dark, intricate, highly detailed, smooth, artstation, digital illustration by ruan jia and mandy jurgens and artgerm and wayne barlowe and greg rutkowski and zdislav beksinski\n- pirate, concept art, deep focus, fantasy, intricate, highly detailed, digital painting, artstation, matte, sharp focus, illustration, art by magali villeneuve, chippy, ryan yee, rk post, clint cearley, daniel ljunggren, zoltan boros, gabor szikszai, howard lyon, steve argyle, winona nelson\n- ghost inside a hunted room, art by lois van baarle and loish and ross tran and rossdraws and sam yang and samdoesarts and artgerm, digital art, highly detailed, intricate, sharp focus, Trending on Artstation HQ, deviantart, unreal engine 5, 4K UHD image\n- red dead redemption 2, cinematic view, epic sky, detailed, concept art, low angle, high detail, warm lighting, volumetric, godrays, vivid, beautiful, trending on artstation, by jordan grimmer, huge scene, grass, art greg rutkowski\n- a fantasy style portrait painting of rachel lane / alison brie hybrid in the style of francois boucher oil painting unreal 5 daz. rpg portrait, extremely detailed artgerm greg rutkowski alphonse mucha greg hildebrandt tim hildebrandt\n- athena, greek goddess, claudia black, art by artgerm and greg rutkowski and magali villeneuve, bronze greek armor, owl crown, d & d, fantasy, intricate, portrait, highly detailed, headshot, digital painting, trending on artstation, concept art, sharp focus, illustration\n- closeup portrait shot of a large strong female biomechanic woman in a scenic scifi environment, intricate, elegant, highly detailed, centered, digital painting, artstation, concept art, smooth, sharp focus, warframe, illustration, thomas kinkade, tomasz alen kopera, peter mohrbacher, donato giancola, leyendecker, boris vallejo\n- ultra realistic illustration of steve urkle as the hulk, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha\n\nI want you to create one detailed prompt exactly about the scene written after SCENE. Follow the structure of the example prompts. This means a very short description of the scene, followed by modifiers divided by commas to alter the mood, style, lighting, and more. Make sure after reading the prompt the activity in the scene should be easy to understand.\n\nKeep the output format simple, with no explanations, just the prompt, without any quotations or any other characters, other than commas. \n\nSCENE:\n\n\n",
+            "prompt": [
+                "26",
+                0
+            ]
+        },
+        "class_type": "Prompt Enhancer"
+    },
+    "26": {
+        "inputs": {
+            "base_prompt": "Imagine a scene that vividly captures the essence of the article belwo. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if its about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articles mood and setting, making it feel immersive and true to the storys narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articles message.\n\nBlog Article:\n\n",
+            "prompt": [
+                "19",
+                0
+            ]
+        },
+        "class_type": "Prompt Enhancer"
+    },
+    "28": {
+        "inputs": {
+            "guidance": 3.5,
+            "conditioning": [
+                "13",
+                0
+            ]
+        },
+        "class_type": "FluxGuidance"
+    },
+    "29": {
+        "inputs": {
+            "width": 768,
+            "height": 1280,
+            "batch_size": 1
+        },
+        "class_type": "EmptySD3LatentImage"
+    }
+}
