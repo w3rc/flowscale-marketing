@@ -52,6 +52,14 @@ workflows:
       - label: Linkedin Post
         demo_type: text
     skip_preprocess: true
+  - id: 8bij2ramw8k
+    name: linkedin_post_text.json
+    description: ''
+    file: linkedin_post_generation/linkedin_post_text.json
+  - id: 2h6f9ebx6qg
+    name: post_image_generator.json
+    description: ''
+    file: linkedin_post_generation/post_image_generator.json
 normal_workflows:
   - id: sb6gcjr6bcc
     name: linkedin_post_text.json
