@@ -31,7 +31,7 @@ workflows:
   - id: r3fig2247bl
     name: linkedin_post_text_api.json
     file: linkedin_post_generation/linkedin_post_text_api.json
-    version: 3
+    version: 4
     description: ''
     inputs:
       - path: 33.inputs.string
@@ -64,7 +64,7 @@ normal_workflows:
   - id: sb6gcjr6bcc
     name: linkedin_post_text.json
     file: linkedin_post_generation/linkedin_post_text.json
-    version: 3
+    version: 4
   - id: c21ygp8ggro
     name: post_image_generator.json
     file: linkedin_post_generation/post_image_generator.json
