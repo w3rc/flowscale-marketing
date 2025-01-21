@@ -160,7 +160,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                139365823485533,
+                318588965356917,
                 "randomize",
                 20,
                 1,
@@ -384,7 +384,7 @@
             },
             "widgets_values": [
                 "",
-                "friends discussing the parallels between Skyrim and life, cozy, dimly lit room, electric atmosphere, animated expressions, shared inspiration, majestic dragon poster, flickering candlelight, determination, warm glow, interconnected ideas on whiteboard, deep engagement, camaraderie, laughter, clinking glasses, band of adventurers, tales of triumph, wisdom, purpose, epic journey"
+                "virtual chat room, futuristic, diverse avatars, dynamic discussions, animated expressions, technology, innovation, self-driving cars, professional networking, seamless integration, digital communication, vibrant discussions, curiosity, exploration, harmonious blend, symphony of communication, endless possibilities"
             ]
         },
         {
@@ -751,10 +751,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.9090909090909091,
+            "scale": 0.5131581182307069,
             "offset": [
-                898.1474187363655,
-                126.06038661818144
+                743.366160056366,
+                210.0240873461814
             ]
         }
     },
