@@ -1,6 +1,6 @@
 {
-    "last_node_id": 35,
-    "last_link_id": 45,
+    "last_node_id": 36,
+    "last_link_id": 46,
     "nodes": [
         {
             "id": 16,
@@ -388,40 +388,6 @@
             ]
         },
         {
-            "id": 19,
-            "type": "PromptUtilitiesConstStringMultiLine",
-            "pos": [
-                -236,
-                12
-            ],
-            "size": [
-                550.541748046875,
-                408.7108459472656
-            ],
-            "flags": {},
-            "order": 2,
-            "mode": 0,
-            "inputs": [],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        44
-                    ],
-                    "slot_index": 0,
-                    "shape": 3
-                }
-            ],
-            "title": "Training Module - Article",
-            "properties": {
-                "Node name for S&R": "PromptUtilitiesConstStringMultiLine"
-            },
-            "widgets_values": [
-                "Ever thought about how playing Skyrim is kinda like navigating your career journey? It's like leveling up in real life! Just as in Skyrim where every step counts, our professional path is all about exploration. By venturing into new territories, be it snowy peaks in-game or new job opportunities, we uncover fresh possibilities that shape our future.\n\nNetworking in Skyrim is like a quest on its own, meeting unique characters and forming alliances. It mirrors our real-world interactions, where each chat could lead to great collaborations or mentoring moments. That wise old man at the tavern? He might just be the mentor you've been looking for!\n\nIn both Skyrim and our careers, skill growth is key. Whether it's mastering spells or improving your work skills, continuous learning is the name of the game! Stay ahead by expanding your skills, be it in tech or just gaining a new perspective.\n\nEvery choice in Skyrim has consequences, just like in our professional lives. Joining a guild or making a bold move at work shapes the path we take. Your decisions, no matter how big or small, build your unique career story.\n\nTaking on challenges in Skyrim builds resilience and creativity, much like tackling hurdles in your career journey. Conquer those dragons and puzzles to inspire your approach to work challenges creatively!\n\nWhat's your next move in this grand game of life? Ever felt like your career was an epic adventure? Share your story and let's level up together! 🗣️👇"
-            ]
-        },
-        {
             "id": 35,
             "type": "openai",
             "pos": [
@@ -439,7 +405,7 @@
                 {
                     "name": "prompt",
                     "type": "STRING",
-                    "link": 44,
+                    "link": 46,
                     "widget": {
                         "name": "prompt"
                     }
@@ -509,7 +475,7 @@
             },
             "widgets_values": [
                 "gpt-3.5-turbo",
-                "Imagine a scene that vividly captures the essence of the blog article below. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if it’s about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the article’s mood and setting, making it feel immersive and true to the story’s narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the article’s message.\n\nBlog Article:\n",
+                "Imagine a scene that vividly captures the essence of the blog article below. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if itâs about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articleâs mood and setting, making it feel immersive and true to the storyâs narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articleâs message.\n\nBlog Article:\n",
                 "",
                 "text",
                 0.9,
@@ -567,6 +533,42 @@
                 100,
                 0,
                 0
+            ]
+        },
+        {
+            "id": 36,
+            "type": "astradb_search",
+            "pos": [
+                -186.45791625976562,
+                56.993350982666016
+            ],
+            "size": [
+                315,
+                154
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        46
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "astradb_search"
+            },
+            "widgets_values": [
+                "Generate a post cover",
+                "",
+                "https://5afd1aea-8e4c-40c9-8e38-5100c6d8c2dd-us-east-2.apps.astra.datastax.com",
+                "chat_history",
+                "abcd"
             ]
         }
     ],
@@ -676,18 +678,18 @@
             "STRING"
         ],
         [
-            44,
-            19,
-            0,
-            35,
-            0,
-            "STRING"
-        ],
-        [
             45,
             35,
             0,
             33,
+            0,
+            "STRING"
+        ],
+        [
+            46,
+            36,
+            0,
+            35,
             0,
             "STRING"
         ]
@@ -749,10 +751,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.5131581182307068,
+            "scale": 0.9090909090909091,
             "offset": [
-                1045.4145024000004,
-                290.38515979999977
+                898.1474187363655,
+                126.06038661818144
             ]
         }
     },
