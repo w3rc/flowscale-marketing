@@ -89,7 +89,3 @@ normal_workflows:
     name: post_gen_on_post.json
     file: post_gen/post_gen_on_post.json
     version: 1
-  - id: 4fyx3yu0ieg
-    name: post_gen_on_context.json
-    file: post_gen/post_gen_on_context.json
-    version: 2
