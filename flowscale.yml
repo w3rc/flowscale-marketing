@@ -71,7 +71,7 @@ workflows:
   - id: debefrub40t
     name: post_gen_on_context_api.json
     file: post_gen/post_gen_on_context_api.json
-    version: 1
+    version: 2
     description: ''
     inputs: []
     outputs: []
@@ -92,4 +92,4 @@ normal_workflows:
   - id: 4fyx3yu0ieg
     name: post_gen_on_context.json
     file: post_gen/post_gen_on_context.json
-    version: 1
+    version: 2
