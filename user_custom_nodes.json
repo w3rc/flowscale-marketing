@@ -59,5 +59,17 @@
     "apt": [],
     "sha": "",
     "cached": "False"
+  },
+  {
+    "url": "https://github.com/FlowScale-AI/flowscale-llm-nodes",
+    "name": "flowscale-llm-nodes",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {},
+    "nodes": [],
+    "pip": [],
+    "apt": [],
+    "sha": "b63371a63f3183e6ea7e87e48dc2fec049769426",
+    "cached": "False"
   }
 ]
