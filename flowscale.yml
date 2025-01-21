@@ -60,6 +60,14 @@ workflows:
     name: post_image_generator.json
     description: ''
     file: linkedin_post_generation/post_image_generator.json
+  - id: nk4wvij5awg
+    name: post_gen_on_post_api.json
+    file: post_gen/post_gen_on_post_api.json
+    version: 1
+    description: ''
+    inputs: []
+    outputs: []
+    skip_preprocess: true
 normal_workflows:
   - id: sb6gcjr6bcc
     name: linkedin_post_text.json
@@ -72,7 +80,7 @@ normal_workflows:
   - id: jnashg4oro
     name: post_gen_on_post.json
     file: post_gen/post_gen_on_post.json
-    version: 0
+    version: 1
   - id: 4fyx3yu0ieg
     name: post_gen_on_context.json
     file: post_gen/post_gen_on_context.json
