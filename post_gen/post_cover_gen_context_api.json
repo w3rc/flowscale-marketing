@@ -1,7 +1,7 @@
 {
     "10": {
         "inputs": {
-            "seed": 1010781202102428,
+            "seed": 139365823485533,
             "steps": 20,
             "cfg": 1,
             "sampler_name": "euler",
@@ -90,7 +90,7 @@
                 "34",
                 0
             ],
-            "text2": "SCENE: a young professional playing Skyrim in a cozy living room, dimly lit by a fireplace, determined and focused face, navigating through rugged terrains on TV screen, engaging in battles, leveling up with glowing magic, facing tough decisions with anticipation, triumphantly smiling after defeating a dragon, sense of accomplishment and possibility, epic adventure of personal and professional growth"
+            "text2": "friends discussing the parallels between Skyrim and life, cozy, dimly lit room, electric atmosphere, animated expressions, shared inspiration, majestic dragon poster, flickering candlelight, determination, warm glow, interconnected ideas on whiteboard, deep engagement, camaraderie, laughter, clinking glasses, band of adventurers, tales of triumph, wisdom, purpose, epic journey"
         },
         "class_type": "ShowText|pysssss"
     },
@@ -115,9 +115,9 @@
     "33": {
         "inputs": {
             "model": "gpt-3.5-turbo",
-            "system_prompt": "Imagine a scene that vividly captures the essence of the article belwo. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if its about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articles mood and setting, making it feel immersive and true to the storys narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articles message.\n\nBlog Article:\n\n",
+            "system_prompt": "Imagine a scene that vividly captures the essence of the blog article below. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if it’s about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the article’s mood and setting, making it feel immersive and true to the story’s narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the article’s message.\n\nBlog Article:\n",
             "prompt": [
-                "19",
+                "35",
                 0
             ],
             "response_format": "text",
@@ -132,7 +132,7 @@
     "34": {
         "inputs": {
             "model": "gpt-3.5-turbo",
-            "system_prompt": "Stable Diffusion is an AI art generation model similar to DALLE-2.\nBelow is a list of prompts that can be used to generate images with Stable Diffusion:\n\n- portait of a homer simpson archer shooting arrow at forest monster, front game card, drark, marvel comics, dark, intricate, highly detailed, smooth, artstation, digital illustration by ruan jia and mandy jurgens and artgerm and wayne barlowe and greg rutkowski and zdislav beksinski\n- pirate, concept art, deep focus, fantasy, intricate, highly detailed, digital painting, artstation, matte, sharp focus, illustration, art by magali villeneuve, chippy, ryan yee, rk post, clint cearley, daniel ljunggren, zoltan boros, gabor szikszai, howard lyon, steve argyle, winona nelson\n- ghost inside a hunted room, art by lois van baarle and loish and ross tran and rossdraws and sam yang and samdoesarts and artgerm, digital art, highly detailed, intricate, sharp focus, Trending on Artstation HQ, deviantart, unreal engine 5, 4K UHD image\n- red dead redemption 2, cinematic view, epic sky, detailed, concept art, low angle, high detail, warm lighting, volumetric, godrays, vivid, beautiful, trending on artstation, by jordan grimmer, huge scene, grass, art greg rutkowski\n- a fantasy style portrait painting of rachel lane / alison brie hybrid in the style of francois boucher oil painting unreal 5 daz. rpg portrait, extremely detailed artgerm greg rutkowski alphonse mucha greg hildebrandt tim hildebrandt\n- athena, greek goddess, claudia black, art by artgerm and greg rutkowski and magali villeneuve, bronze greek armor, owl crown, d & d, fantasy, intricate, portrait, highly detailed, headshot, digital painting, trending on artstation, concept art, sharp focus, illustration\n- closeup portrait shot of a large strong female biomechanic woman in a scenic scifi environment, intricate, elegant, highly detailed, centered, digital painting, artstation, concept art, smooth, sharp focus, warframe, illustration, thomas kinkade, tomasz alen kopera, peter mohrbacher, donato giancola, leyendecker, boris vallejo\n- ultra realistic illustration of steve urkle as the hulk, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha\n\nI want you to create one detailed prompt exactly about the scene written after SCENE. Follow the structure of the example prompts. This means a very short description of the scene, followed by modifiers divided by commas to alter the mood, style, lighting, and more. Make sure after reading the prompt the activity in the scene should be easy to understand.\n\nKeep the output format simple, with no explanations, just the prompt, without any quotations or any other characters, other than commas. \n\nSCENE:\n\n\n",
+            "system_prompt": "Stable Diffusion is an AI art generation model similar to DALLE-2.\nBelow is a list of prompts that can be used to generate images with Stable Diffusion:\n\n- portrait of a Homer Simpson archer shooting arrow at forest monster, front game card, dark, Marvel comics, intricate, highly detailed, smooth, artstation, digital illustration by Ruan Jia and Mandy Jurgens and Artgerm and Wayne Barlowe and Greg Rutkowski and Zdislav Beksinski\n- pirate, concept art, deep focus, fantasy, intricate, highly detailed, digital painting, artstation, matte, sharp focus, illustration, art by Magali Villeneuve, Chippy, Ryan Yee, RK Post, Clint Cearley, Daniel Ljunggren, Zoltan Boros, Gabor Szikszai, Howard Lyon, Steve Argyle, Winona Nelson\n- ghost inside a haunted room, art by Lois van Baarle and Loish and Ross Tran and RossDraws and Sam Yang and SamDoesArts and Artgerm, digital art, highly detailed, intricate, sharp focus, trending on Artstation HQ, DeviantArt, Unreal Engine 5, 4K UHD image\n- red dead redemption 2, cinematic view, epic sky, detailed, concept art, low angle, high detail, warm lighting, volumetric, godrays, vivid, beautiful, trending on Artstation, by Jordan Grimmer, huge scene, grass, art by Greg Rutkowski\n- Athena, Greek goddess, Claudia Black, art by Artgerm and Greg Rutkowski and Magali Villeneuve, bronze Greek armor, owl crown, D&D, fantasy, intricate, portrait, highly detailed, headshot, digital painting, trending on Artstation, concept art, sharp focus, illustration\n\nI want you to create one detailed prompt exactly about the scene written after SCENE. Follow the structure of the example prompts. This means a very short description of the scene, followed by modifiers divided by commas to alter the mood, style, lighting, and more. Make sure after reading the prompt the activity in the scene should be easy to understand.\n\nSCENE:\n",
             "prompt": [
                 "33",
                 0
@@ -141,6 +141,23 @@
             "temperature": 0.9,
             "top_p": 1,
             "max_completion_tokens": 100,
+            "presence_penalty": 0,
+            "frequency_penalty": 0
+        },
+        "class_type": "openai"
+    },
+    "35": {
+        "inputs": {
+            "model": "gpt-3.5-turbo",
+            "system_prompt": "Generate a detailed and descriptive blog post that captures the essence of the most recent conversation in the chat history. Focus on creating a vivid narrative, highlighting key themes, characters, and emotions discussed. Use immersive language to bring the scene to life and make it feel engaging and relatable for readers. Avoid using direct quotes from the chat, but ensure the overall tone and intent of the conversation are maintained.\n",
+            "prompt": [
+                "19",
+                0
+            ],
+            "response_format": "text",
+            "temperature": 0.9,
+            "top_p": 1,
+            "max_completion_tokens": 500,
             "presence_penalty": 0,
             "frequency_penalty": 0
         },
