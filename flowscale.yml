@@ -100,6 +100,14 @@ workflows:
     inputs: []
     outputs: []
     skip_preprocess: true
+  - id: 4aiqcuztd98
+    name: post_cover_gen_context_api.json
+    file: post_gen/post_cover_gen_context_api.json
+    version: 0
+    description: ''
+    inputs: []
+    outputs: []
+    skip_preprocess: true
 normal_workflows:
   - id: sb6gcjr6bcc
     name: linkedin_post_text.json
@@ -124,4 +132,8 @@ normal_workflows:
   - id: scj5yqj1o9p
     name: post_cover_context.json
     file: post_gen/post_cover_context.json
+    version: 0
+  - id: m3fviarnkoa
+    name: post_cover_gen_context.json
+    file: post_gen/post_cover_gen_context.json
     version: 0
