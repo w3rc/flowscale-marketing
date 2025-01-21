@@ -103,7 +103,7 @@ workflows:
   - id: 4aiqcuztd98
     name: post_cover_gen_context_api.json
     file: post_gen/post_cover_gen_context_api.json
-    version: 3
+    version: 4
     description: ''
     inputs: []
     outputs: []
@@ -136,4 +136,4 @@ normal_workflows:
   - id: m3fviarnkoa
     name: post_cover_gen_context.json
     file: post_gen/post_cover_gen_context.json
-    version: 3
+    version: 4
