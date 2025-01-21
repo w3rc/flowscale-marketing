@@ -69,3 +69,7 @@ normal_workflows:
     name: post_image_generator.json
     file: linkedin_post_generation/post_image_generator.json
     version: 2
+  - id: jnashg4oro
+    name: post_gen_on_post.json
+    file: post_gen/post_gen_on_post.json
+    version: 0
