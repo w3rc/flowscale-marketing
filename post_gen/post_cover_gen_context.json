@@ -1,41 +1,7 @@
 {
-    "last_node_id": 34,
-    "last_link_id": 43,
+    "last_node_id": 35,
+    "last_link_id": 45,
     "nodes": [
-        {
-            "id": 19,
-            "type": "PromptUtilitiesConstStringMultiLine",
-            "pos": [
-                -236,
-                12
-            ],
-            "size": [
-                550.541748046875,
-                408.7108459472656
-            ],
-            "flags": {},
-            "order": 0,
-            "mode": 0,
-            "inputs": [],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        40
-                    ],
-                    "slot_index": 0,
-                    "shape": 3
-                }
-            ],
-            "title": "Training Module - Article",
-            "properties": {
-                "Node name for S&R": "PromptUtilitiesConstStringMultiLine"
-            },
-            "widgets_values": [
-                "Ever thought about how playing Skyrim is kinda like navigating your career journey? It's like leveling up in real life! Just as in Skyrim where every step counts, our professional path is all about exploration. By venturing into new territories, be it snowy peaks in-game or new job opportunities, we uncover fresh possibilities that shape our future.\n\nNetworking in Skyrim is like a quest on its own, meeting unique characters and forming alliances. It mirrors our real-world interactions, where each chat could lead to great collaborations or mentoring moments. That wise old man at the tavern? He might just be the mentor you've been looking for!\n\nIn both Skyrim and our careers, skill growth is key. Whether it's mastering spells or improving your work skills, continuous learning is the name of the game! Stay ahead by expanding your skills, be it in tech or just gaining a new perspective.\n\nEvery choice in Skyrim has consequences, just like in our professional lives. Joining a guild or making a bold move at work shapes the path we take. Your decisions, no matter how big or small, build your unique career story.\n\nTaking on challenges in Skyrim builds resilience and creativity, much like tackling hurdles in your career journey. Conquer those dragons and puzzles to inspire your approach to work challenges creatively!\n\nWhat's your next move in this grand game of life? Ever felt like your career was an epic adventure? Share your story and let's level up together! 🗣️👇"
-            ]
-        },
         {
             "id": 16,
             "type": "SaveImage",
@@ -48,7 +14,7 @@
                 380.2356872558594
             ],
             "flags": {},
-            "order": 11,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -78,7 +44,7 @@
             "flags": {
                 "collapsed": true
             },
-            "order": 10,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -121,7 +87,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 1,
+            "order": 0,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -156,7 +122,7 @@
                 262
             ],
             "flags": {},
-            "order": 9,
+            "order": 10,
             "mode": 0,
             "inputs": [
                 {
@@ -194,7 +160,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                1010781202102428,
+                139365823485533,
                 "randomize",
                 20,
                 1,
@@ -215,7 +181,7 @@
                 94.09107971191406
             ],
             "flags": {},
-            "order": 4,
+            "order": 3,
             "mode": 0,
             "inputs": [
                 {
@@ -255,7 +221,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 7,
+            "order": 8,
             "mode": 0,
             "inputs": [
                 {
@@ -303,7 +269,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 8,
+            "order": 9,
             "mode": 0,
             "inputs": [
                 {
@@ -344,7 +310,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 2,
+            "order": 1,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -393,7 +359,7 @@
                 204.48614501953125
             ],
             "flags": {},
-            "order": 6,
+            "order": 7,
             "mode": 0,
             "inputs": [
                 {
@@ -418,7 +384,90 @@
             },
             "widgets_values": [
                 "",
-                "SCENE: a young professional playing Skyrim in a cozy living room, dimly lit by a fireplace, determined and focused face, navigating through rugged terrains on TV screen, engaging in battles, leveling up with glowing magic, facing tough decisions with anticipation, triumphantly smiling after defeating a dragon, sense of accomplishment and possibility, epic adventure of personal and professional growth"
+                "friends discussing the parallels between Skyrim and life, cozy, dimly lit room, electric atmosphere, animated expressions, shared inspiration, majestic dragon poster, flickering candlelight, determination, warm glow, interconnected ideas on whiteboard, deep engagement, camaraderie, laughter, clinking glasses, band of adventurers, tales of triumph, wisdom, purpose, epic journey"
+            ]
+        },
+        {
+            "id": 19,
+            "type": "PromptUtilitiesConstStringMultiLine",
+            "pos": [
+                -236,
+                12
+            ],
+            "size": [
+                550.541748046875,
+                408.7108459472656
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        44
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "title": "Training Module - Article",
+            "properties": {
+                "Node name for S&R": "PromptUtilitiesConstStringMultiLine"
+            },
+            "widgets_values": [
+                "Ever thought about how playing Skyrim is kinda like navigating your career journey? It's like leveling up in real life! Just as in Skyrim where every step counts, our professional path is all about exploration. By venturing into new territories, be it snowy peaks in-game or new job opportunities, we uncover fresh possibilities that shape our future.\n\nNetworking in Skyrim is like a quest on its own, meeting unique characters and forming alliances. It mirrors our real-world interactions, where each chat could lead to great collaborations or mentoring moments. That wise old man at the tavern? He might just be the mentor you've been looking for!\n\nIn both Skyrim and our careers, skill growth is key. Whether it's mastering spells or improving your work skills, continuous learning is the name of the game! Stay ahead by expanding your skills, be it in tech or just gaining a new perspective.\n\nEvery choice in Skyrim has consequences, just like in our professional lives. Joining a guild or making a bold move at work shapes the path we take. Your decisions, no matter how big or small, build your unique career story.\n\nTaking on challenges in Skyrim builds resilience and creativity, much like tackling hurdles in your career journey. Conquer those dragons and puzzles to inspire your approach to work challenges creatively!\n\nWhat's your next move in this grand game of life? Ever felt like your career was an epic adventure? Share your story and let's level up together! 🗣️👇"
+            ]
+        },
+        {
+            "id": 35,
+            "type": "openai",
+            "pos": [
+                -719.498046875,
+                566.8007202148438
+            ],
+            "size": [
+                415.7300109863281,
+                412.5800476074219
+            ],
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 44,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "response",
+                    "type": "STRING",
+                    "links": [
+                        45
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "openai"
+            },
+            "widgets_values": [
+                "gpt-3.5-turbo",
+                "Generate a detailed and descriptive blog post that captures the essence of the most recent conversation in the chat history. Focus on creating a vivid narrative, highlighting key themes, characters, and emotions discussed. Use immersive language to bring the scene to life and make it feel engaging and relatable for readers. Avoid using direct quotes from the chat, but ensure the overall tone and intent of the conversation are maintained.\n",
+                "",
+                "text",
+                0.9,
+                1,
+                500,
+                0,
+                0
             ]
         },
         {
@@ -433,13 +482,13 @@
                 412.5800476074219
             ],
             "flags": {},
-            "order": 3,
+            "order": 5,
             "mode": 0,
             "inputs": [
                 {
                     "name": "prompt",
                     "type": "STRING",
-                    "link": 40,
+                    "link": 45,
                     "widget": {
                         "name": "prompt"
                     }
@@ -460,7 +509,7 @@
             },
             "widgets_values": [
                 "gpt-3.5-turbo",
-                "Imagine a scene that vividly captures the essence of the article belwo. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if its about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articles mood and setting, making it feel immersive and true to the storys narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articles message.\n\nBlog Article:\n\n",
+                "Imagine a scene that vividly captures the essence of the blog article below. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if it’s about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the article’s mood and setting, making it feel immersive and true to the story’s narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the article’s message.\n\nBlog Article:\n",
                 "",
                 "text",
                 0.9,
@@ -482,7 +531,7 @@
                 411.9331970214844
             ],
             "flags": {},
-            "order": 5,
+            "order": 6,
             "mode": 0,
             "inputs": [
                 {
@@ -510,7 +559,7 @@
             },
             "widgets_values": [
                 "gpt-3.5-turbo",
-                "Stable Diffusion is an AI art generation model similar to DALLE-2.\nBelow is a list of prompts that can be used to generate images with Stable Diffusion:\n\n- portait of a homer simpson archer shooting arrow at forest monster, front game card, drark, marvel comics, dark, intricate, highly detailed, smooth, artstation, digital illustration by ruan jia and mandy jurgens and artgerm and wayne barlowe and greg rutkowski and zdislav beksinski\n- pirate, concept art, deep focus, fantasy, intricate, highly detailed, digital painting, artstation, matte, sharp focus, illustration, art by magali villeneuve, chippy, ryan yee, rk post, clint cearley, daniel ljunggren, zoltan boros, gabor szikszai, howard lyon, steve argyle, winona nelson\n- ghost inside a hunted room, art by lois van baarle and loish and ross tran and rossdraws and sam yang and samdoesarts and artgerm, digital art, highly detailed, intricate, sharp focus, Trending on Artstation HQ, deviantart, unreal engine 5, 4K UHD image\n- red dead redemption 2, cinematic view, epic sky, detailed, concept art, low angle, high detail, warm lighting, volumetric, godrays, vivid, beautiful, trending on artstation, by jordan grimmer, huge scene, grass, art greg rutkowski\n- a fantasy style portrait painting of rachel lane / alison brie hybrid in the style of francois boucher oil painting unreal 5 daz. rpg portrait, extremely detailed artgerm greg rutkowski alphonse mucha greg hildebrandt tim hildebrandt\n- athena, greek goddess, claudia black, art by artgerm and greg rutkowski and magali villeneuve, bronze greek armor, owl crown, d & d, fantasy, intricate, portrait, highly detailed, headshot, digital painting, trending on artstation, concept art, sharp focus, illustration\n- closeup portrait shot of a large strong female biomechanic woman in a scenic scifi environment, intricate, elegant, highly detailed, centered, digital painting, artstation, concept art, smooth, sharp focus, warframe, illustration, thomas kinkade, tomasz alen kopera, peter mohrbacher, donato giancola, leyendecker, boris vallejo\n- ultra realistic illustration of steve urkle as the hulk, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha\n\nI want you to create one detailed prompt exactly about the scene written after SCENE. Follow the structure of the example prompts. This means a very short description of the scene, followed by modifiers divided by commas to alter the mood, style, lighting, and more. Make sure after reading the prompt the activity in the scene should be easy to understand.\n\nKeep the output format simple, with no explanations, just the prompt, without any quotations or any other characters, other than commas. \n\nSCENE:\n\n\n",
+                "Stable Diffusion is an AI art generation model similar to DALLE-2.\nBelow is a list of prompts that can be used to generate images with Stable Diffusion:\n\n- portrait of a Homer Simpson archer shooting arrow at forest monster, front game card, dark, Marvel comics, intricate, highly detailed, smooth, artstation, digital illustration by Ruan Jia and Mandy Jurgens and Artgerm and Wayne Barlowe and Greg Rutkowski and Zdislav Beksinski\n- pirate, concept art, deep focus, fantasy, intricate, highly detailed, digital painting, artstation, matte, sharp focus, illustration, art by Magali Villeneuve, Chippy, Ryan Yee, RK Post, Clint Cearley, Daniel Ljunggren, Zoltan Boros, Gabor Szikszai, Howard Lyon, Steve Argyle, Winona Nelson\n- ghost inside a haunted room, art by Lois van Baarle and Loish and Ross Tran and RossDraws and Sam Yang and SamDoesArts and Artgerm, digital art, highly detailed, intricate, sharp focus, trending on Artstation HQ, DeviantArt, Unreal Engine 5, 4K UHD image\n- red dead redemption 2, cinematic view, epic sky, detailed, concept art, low angle, high detail, warm lighting, volumetric, godrays, vivid, beautiful, trending on Artstation, by Jordan Grimmer, huge scene, grass, art by Greg Rutkowski\n- Athena, Greek goddess, Claudia Black, art by Artgerm and Greg Rutkowski and Magali Villeneuve, bronze Greek armor, owl crown, D&D, fantasy, intricate, portrait, highly detailed, headshot, digital painting, trending on Artstation, concept art, sharp focus, illustration\n\nI want you to create one detailed prompt exactly about the scene written after SCENE. Follow the structure of the example prompts. This means a very short description of the scene, followed by modifiers divided by commas to alter the mood, style, lighting, and more. Make sure after reading the prompt the activity in the scene should be easy to understand.\n\nSCENE:\n",
                 "",
                 "text",
                 0.9,
@@ -603,14 +652,6 @@
             "LATENT"
         ],
         [
-            40,
-            19,
-            0,
-            33,
-            0,
-            "STRING"
-        ],
-        [
             41,
             33,
             0,
@@ -632,6 +673,22 @@
             0,
             13,
             1,
+            "STRING"
+        ],
+        [
+            44,
+            19,
+            0,
+            35,
+            0,
+            "STRING"
+        ],
+        [
+            45,
+            35,
+            0,
+            33,
+            0,
             "STRING"
         ]
     ],
@@ -692,10 +749,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.5644739300537773,
+            "scale": 0.5131581182307068,
             "offset": [
-                923.6381400000005,
-                229.91103400000011
+                1045.4145024000004,
+                290.38515979999977
             ]
         }
     },
