@@ -84,38 +84,6 @@ workflows:
       - label: ''
         demo_type: image
     skip_preprocess: true
-  - id: debefrub40t
-    name: post_gen_on_context_api.json
-    file: post_gen/post_gen_on_context_api.json
-    version: 2
-    description: ''
-    inputs: []
-    outputs: []
-    skip_preprocess: true
-  - id: 11na8zzmu7u
-    name: cover_gen_on_context_api.json
-    file: post_gen/cover_gen_on_context_api.json
-    version: 0
-    description: ''
-    inputs: []
-    outputs: []
-    skip_preprocess: true
-  - id: wy27v73vrz
-    name: cover_post_context_api.json
-    file: post_gen/cover_post_context_api.json
-    version: 0
-    description: ''
-    inputs: []
-    outputs: []
-    skip_preprocess: true
-  - id: 714iawvxi5a
-    name: post_cover_context_api.json
-    file: post_gen/post_cover_context_api.json
-    version: 0
-    description: ''
-    inputs: []
-    outputs: []
-    skip_preprocess: true
   - id: 4aiqcuztd98
     name: post_cover_gen_context_api.json
     file: post_gen/post_cover_gen_context_api.json
@@ -160,18 +128,6 @@ normal_workflows:
     name: post_gen_on_post.json
     file: post_gen/post_gen_on_post.json
     version: 1
-  - id: aa57iglmyd9
-    name: cover_gen_on_context.json
-    file: post_gen/cover_gen_on_context.json
-    version: 0
-  - id: 9dojhffhogu
-    name: cover_post_context.json
-    file: post_gen/cover_post_context.json
-    version: 0
-  - id: scj5yqj1o9p
-    name: post_cover_context.json
-    file: post_gen/post_cover_context.json
-    version: 0
   - id: m3fviarnkoa
     name: post_cover_gen_context.json
     file: post_gen/post_cover_gen_context.json
