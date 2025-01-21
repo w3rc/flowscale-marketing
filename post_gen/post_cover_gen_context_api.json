@@ -78,12 +78,6 @@
         },
         "class_type": "SaveImage"
     },
-    "19": {
-        "inputs": {
-            "string": "Ever thought about how playing Skyrim is kinda like navigating your career journey? It's like leveling up in real life! Just as in Skyrim where every step counts, our professional path is all about exploration. By venturing into new territories, be it snowy peaks in-game or new job opportunities, we uncover fresh possibilities that shape our future.\n\nNetworking in Skyrim is like a quest on its own, meeting unique characters and forming alliances. It mirrors our real-world interactions, where each chat could lead to great collaborations or mentoring moments. That wise old man at the tavern? He might just be the mentor you've been looking for!\n\nIn both Skyrim and our careers, skill growth is key. Whether it's mastering spells or improving your work skills, continuous learning is the name of the game! Stay ahead by expanding your skills, be it in tech or just gaining a new perspective.\n\nEvery choice in Skyrim has consequences, just like in our professional lives. Joining a guild or making a bold move at work shapes the path we take. Your decisions, no matter how big or small, build your unique career story.\n\nTaking on challenges in Skyrim builds resilience and creativity, much like tackling hurdles in your career journey. Conquer those dragons and puzzles to inspire your approach to work challenges creatively!\n\nWhat's your next move in this grand game of life? Ever felt like your career was an epic adventure? Share your story and let's level up together! 🗣️👇"
-        },
-        "class_type": "PromptUtilitiesConstStringMultiLine"
-    },
     "22": {
         "inputs": {
             "text": [
@@ -115,7 +109,7 @@
     "33": {
         "inputs": {
             "model": "gpt-3.5-turbo",
-            "system_prompt": "Imagine a scene that vividly captures the essence of the blog article below. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if it’s about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the article’s mood and setting, making it feel immersive and true to the story’s narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the article’s message.\n\nBlog Article:\n",
+            "system_prompt": "Imagine a scene that vividly captures the essence of the blog article below. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if itâs about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articleâs mood and setting, making it feel immersive and true to the storyâs narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articleâs message.\n\nBlog Article:\n",
             "prompt": [
                 "35",
                 0
@@ -151,7 +145,7 @@
             "model": "gpt-3.5-turbo",
             "system_prompt": "Generate a detailed and descriptive blog post that captures the essence of the most recent conversation in the chat history. Focus on creating a vivid narrative, highlighting key themes, characters, and emotions discussed. Use immersive language to bring the scene to life and make it feel engaging and relatable for readers. Avoid using direct quotes from the chat, but ensure the overall tone and intent of the conversation are maintained.\n",
             "prompt": [
-                "19",
+                "36",
                 0
             ],
             "response_format": "text",
@@ -162,5 +156,15 @@
             "frequency_penalty": 0
         },
         "class_type": "openai"
+    },
+    "36": {
+        "inputs": {
+            "search_query": "Generate a post cover",
+            "astradb_token": "",
+            "astradb_endpoint": "https://5afd1aea-8e4c-40c9-8e38-5100c6d8c2dd-us-east-2.apps.astra.datastax.com",
+            "collection_name": "chat_history",
+            "conversation_id": "abcd"
+        },
+        "class_type": "astradb_search"
     }
 }
