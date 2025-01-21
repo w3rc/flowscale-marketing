@@ -1,4 +1,4 @@
-version: 3
+version: 4
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -121,8 +121,31 @@ workflows:
     file: post_gen/post_cover_gen_context_api.json
     version: 5
     description: ''
-    inputs: []
-    outputs: []
+    inputs:
+      - path: 36.inputs.astradb_token
+        label: astradb_token
+        parameter_name: astradb_token_11949
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 36.inputs.conversation_id
+        label: conversation_id
+        parameter_name: conversation_id_73934
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 16.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_52138
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: ''
+        demo_type: image
     skip_preprocess: true
 normal_workflows:
   - id: sb6gcjr6bcc
