@@ -160,7 +160,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                874109398570396,
+                976027756397155,
                 "randomize",
                 20,
                 1,
@@ -297,57 +297,6 @@
             ]
         },
         {
-            "id": 11,
-            "type": "CheckpointLoaderSimple",
-            "pos": [
-                791.5042114257812,
-                552.4508666992188
-            ],
-            "size": [
-                315,
-                98
-            ],
-            "flags": {
-                "collapsed": false
-            },
-            "order": 1,
-            "mode": 0,
-            "inputs": [],
-            "outputs": [
-                {
-                    "name": "MODEL",
-                    "type": "MODEL",
-                    "links": [
-                        10
-                    ],
-                    "slot_index": 0
-                },
-                {
-                    "name": "CLIP",
-                    "type": "CLIP",
-                    "links": [
-                        14,
-                        15
-                    ],
-                    "slot_index": 1
-                },
-                {
-                    "name": "VAE",
-                    "type": "VAE",
-                    "links": [
-                        17
-                    ],
-                    "slot_index": 2
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "CheckpointLoaderSimple"
-            },
-            "widgets_values": [
-                "FLUX1/flux1-dev-fp8.safetensors"
-            ]
-        },
-        {
             "id": 22,
             "type": "ShowText|pysssss",
             "pos": [
@@ -384,7 +333,7 @@
             },
             "widgets_values": [
                 "",
-                "virtual chat room, futuristic, diverse avatars, dynamic discussions, animated expressions, technology, innovation, self-driving cars, professional networking, seamless integration, digital communication, vibrant discussions, curiosity, exploration, harmonious blend, symphony of communication, endless possibilities"
+                "\"A digital illustration depicting a professional navigating a dynamic landscape reminiscent of Skyrim, facing challenges and seizing opportunities. \nArt Style: Fantasy realism with dynamic lighting, intricate details, \nTechnical: medium angle view, 50mm lens, dynamic lighting with shadows and highlights, \nColor Palette: #1A1A1A (primary), #5D5D5D (secondary), #BEBEBE (accent), \nModifiers: detailed landscapes, magical effects, weather elements, \nArtists: Greg Rutkowski, Noah Bradley, Paul Scott Canavan,\nNegative Prompt: cartoonish style, flat lighting, oversaturated colors\""
             ]
         },
         {
@@ -427,7 +376,8 @@
                 "yes",
                 "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n",
                 "",
-                "\\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n\n\n\\nUser's Prompt: \n"
+                "\\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n\n\n\\nUser's Prompt: \n",
+                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n, [{\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T10:05:20.612994\"}, {\"content\": \"Regenerate the image, add skyrim elements to it\", \"timestamp\": \"2025-01-22T10:05:19.401315\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T10:04:37.481056\"}, {\"content\": \"Regenerate the image\", \"timestamp\": \"2025-01-22T10:04:36.420173\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T10:02:58.851201\"}, {\"content\": \"Generate a post cover image on it\", \"timestamp\": \"2025-01-22T10:02:57.267783\"}, {\"content\": \"{\\\"AI\\\": \\\"We were discussing how the game Skyrim can teach professionals about creativity and innovation. It focused on immersive storytelling, exploration and innovation, adaptability and problem-solving, community and collaboration, and continuous learning and growth.\\\"}\", \"timestamp\": \"2025-01-22T10:02:07.455919\"}, {\"content\": \"Do you have any idea about my interests>\", \"timestamp\": \"2025-01-22T10:02:05.438273\"}, {\"content\": \"{\\\"AI\\\": \\\"Based on the available chat history, there is no specific information about you provided. If you have any LinkedIn content needs or other questions, feel free to ask!\\\"}\", \"timestamp\": \"2025-01-22T10:01:49.029786\"}, {\"content\": \"Do you knwo about me\", \"timestamp\": \"2025-01-22T10:01:46.877549\"}, {\"content\": \"{\\\"AI\\\": \\\"Hey there! What LinkedIn content can I assist you with today?\\\"}\", \"timestamp\": \"2025-01-22T09:18:49.822111\"}, {\"content\": \"{\\\"AI\\\": \\\"Hello! How can I assist you with LinkedIn content today?\\\"}\", \"timestamp\": \"2025-01-22T09:17:47.550592\"}, {\"content\": \"hii\", \"timestamp\": \"2025-01-22T09:17:46.154036\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T09:13:51.473409\"}, {\"content\": \"can you genberate a post cover on it\", \"timestamp\": \"2025-01-22T09:13:50.155009\"}, {\"content\": \"{\\\"AI\\\": \\\"Hello! How can I help with LinkedIn content today?\\\"}\", \"timestamp\": \"2025-01-22T09:13:26.268189\"}, {\"content\": \"hii\", \"timestamp\": \"2025-01-22T09:13:25.063595\"}, {\"content\": \"{\\\"AI\\\": \\\"We were generating LinkedIn content on discovering what Skyrim can teach professionals about creativity and innovation. The focus was on immersive storytelling, exploration and innovation, adaptability and problem-solving, community and collaboration, and continuous learning and growth.\\\"}\", \"timestamp\": \"2025-01-22T09:13:14.417309\"}, {\"content\": \"what were you generating linkenkedin content on?\", \"timestamp\": \"2025-01-22T09:13:11.968180\"}, {\"content\": \"l for career success. The ability to adjust strategies swiftly in the face of challenges can pave the way for achievements. 4. **Community and Collaboration**: Skyrim's modding community highlights the strength of collaboration. Embracing diverse perspectives and working as a team can spark innovative solutions that might not emerge in solitude. 5. **Continuous Learning and Growth**: Just as players level up in the game, professionals should commit to continuous learning. Evolving skills and gaining new insights are essential for staying competitive and growing in one's career. Let's embark on our professional journeys with a touch of Skyrim magic. Which reminder resonates with you the most? Feel free to share your thoughts or experiences below! \\ud83d\\udc47\\u2728, \\\"}\", \"timestamp\": \"2025-01-22T09:12:43.357265\"}], \\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n \\nUser's Prompt:"
             ]
         },
         {
@@ -576,6 +526,57 @@
                 300,
                 0.5,
                 0
+            ]
+        },
+        {
+            "id": 11,
+            "type": "CheckpointLoaderSimple",
+            "pos": [
+                791.5042114257812,
+                552.4508666992188
+            ],
+            "size": [
+                315,
+                98
+            ],
+            "flags": {
+                "collapsed": false
+            },
+            "order": 1,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "MODEL",
+                    "type": "MODEL",
+                    "links": [
+                        10
+                    ],
+                    "slot_index": 0
+                },
+                {
+                    "name": "CLIP",
+                    "type": "CLIP",
+                    "links": [
+                        14,
+                        15
+                    ],
+                    "slot_index": 1
+                },
+                {
+                    "name": "VAE",
+                    "type": "VAE",
+                    "links": [
+                        17
+                    ],
+                    "slot_index": 2
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "CheckpointLoaderSimple"
+            },
+            "widgets_values": [
+                "FLUX1/flux1-dev-fp8.safetensors"
             ]
         },
         {
@@ -803,10 +804,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.5644739300537773,
+            "scale": 0.6830134553650712,
             "offset": [
-                1155.6632411166715,
-                85.84454441332161
+                968.9960537266692,
+                176.58848849332162
             ]
         }
     },
