@@ -1,4 +1,4 @@
-version: 4
+version: 5
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -92,21 +92,28 @@ workflows:
     inputs:
       - path: 36.inputs.astradb_token
         label: astradb_token
-        parameter_name: astradb_token_11949
+        parameter_name: astradb_token_14989
         type: string
         demo_type: text
         category: input
         randomize: false
       - path: 36.inputs.conversation_id
         label: conversation_id
-        parameter_name: conversation_id_73934
+        parameter_name: conversation_id_81996
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 40.inputs.string
+        label: prompt
+        parameter_name: string_44175
         type: string
         demo_type: text
         category: input
         randomize: false
       - path: 16.inputs.filename_prefix
         label: filename_prefix
-        parameter_name: filename_prefix_52138
+        parameter_name: filename_prefix_49129
         type: string
         demo_type: text
         category: output
