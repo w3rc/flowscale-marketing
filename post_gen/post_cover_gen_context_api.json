@@ -1,7 +1,7 @@
 {
     "10": {
         "inputs": {
-            "seed": 809325360562978,
+            "seed": 656072937410383,
             "steps": 20,
             "cfg": 1,
             "sampler_name": "euler",
@@ -84,7 +84,7 @@
                 "33",
                 0
             ],
-            "text2": "In a bustling office space, a diverse team of professionals gathers around a conference table, their faces alive with curiosity and determination. Post-it notes cover a whiteboard, showcasing a myriad of ideas sparked by their \"20% time\" brainstorming session. The room hums with the emotional intensity reminiscent of Steve Jobs, as passionate debates fuel the creative process. Each member harnesses their unique perspectives and fervor to push boundaries, united by a shared vision of innovation. As the sun sets outside, casting a warm glow through the windows, the team embodies the spirit of Google's culture, embracing failure as a stepping stone to success, ready to transform their collective passion into groundbreaking solutions."
+            "text2": "In a bustling tech hub reminiscent of Silicon Valley, a diverse team of professionals gathers in a sleek, modern office space. Inspired by Google's innovative culture, they engage in passionate discussions, fueled by emotional intensity akin to Steve Jobs. The room buzzes with creativity as individuals channel their fervor into brainstorming sessions, pushing boundaries and embracing failure as a path to progress. Surrounded by whiteboards filled with data-driven ideas and colorful post-it notes, they embody a culture of curiosity and collaboration, striving to unleash the power of innovation in their endeavors."
         },
         "class_type": "ShowText|pysssss"
     },
@@ -109,7 +109,7 @@
     "33": {
         "inputs": {
             "model": "gpt-3.5-turbo",
-            "system_prompt": "Imagine a scene that vividly captures the essence of the article belwo. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if its about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articles mood and setting, making it feel immersive and true to the storys narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articles message. The scene description must not be more thn 1 paragraph\n\nBlog Article:\n\n",
+            "system_prompt": "Imagine a scene that vividly captures the essence of the article belwo. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if its about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articles mood and setting, making it feel immersive and true to the storys narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articles message. The scene description must not be more thn 1 paragraph. Specifically mention any nouns you encounter in the blog article and keep the scene focused on those nouns\n\n\nBlog Article:\n\n",
             "prompt": [
                 "35",
                 0
