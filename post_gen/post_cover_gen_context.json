@@ -1,6 +1,6 @@
 {
-    "last_node_id": 36,
-    "last_link_id": 46,
+    "last_node_id": 37,
+    "last_link_id": 47,
     "nodes": [
         {
             "id": 16,
@@ -14,7 +14,7 @@
                 380.2356872558594
             ],
             "flags": {},
-            "order": 12,
+            "order": 13,
             "mode": 0,
             "inputs": [
                 {
@@ -44,7 +44,7 @@
             "flags": {
                 "collapsed": true
             },
-            "order": 11,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -122,7 +122,7 @@
                 262
             ],
             "flags": {},
-            "order": 10,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -160,7 +160,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                318588965356917,
+                140004100054213,
                 "randomize",
                 20,
                 1,
@@ -221,7 +221,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 8,
+            "order": 9,
             "mode": 0,
             "inputs": [
                 {
@@ -269,7 +269,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 9,
+            "order": 10,
             "mode": 0,
             "inputs": [
                 {
@@ -359,7 +359,7 @@
                 204.48614501953125
             ],
             "flags": {},
-            "order": 7,
+            "order": 8,
             "mode": 0,
             "inputs": [
                 {
@@ -385,6 +385,49 @@
             "widgets_values": [
                 "",
                 "virtual chat room, futuristic, diverse avatars, dynamic discussions, animated expressions, technology, innovation, self-driving cars, professional networking, seamless integration, digital communication, vibrant discussions, curiosity, exploration, harmonious blend, symphony of communication, endless possibilities"
+            ]
+        },
+        {
+            "id": 37,
+            "type": "StringFunction|pysssss",
+            "pos": [
+                -218.3096466064453,
+                16.256237030029297
+            ],
+            "size": [
+                441.79998779296875,
+                315.29998779296875
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text_b",
+                    "type": "STRING",
+                    "link": 47,
+                    "widget": {
+                        "name": "text_b"
+                    },
+                    "shape": 7
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "StringFunction|pysssss"
+            },
+            "widgets_values": [
+                "append",
+                "yes",
+                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n",
+                "",
+                "\\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n\n\n\\nUser's Prompt: \n"
             ]
         },
         {
@@ -426,13 +469,13 @@
             },
             "widgets_values": [
                 "gpt-3.5-turbo",
-                "Generate a detailed and descriptive blog post that captures the essence of the most recent conversation in the chat history. Focus on creating a vivid narrative, highlighting key themes, characters, and emotions discussed. Use immersive language to bring the scene to life and make it feel engaging and relatable for readers. Avoid using direct quotes from the chat, but ensure the overall tone and intent of the conversation are maintained.\n",
+                "Create a comprehensive blog article that synthesizes key elements from the conversation history. Follow these guidelines:\n\n1. **Structure**:\n   - Opening hook: Start with surprising statistic/question/metaphor\n   - 3 key sections with subheadings\n   - Actionable conclusion\n\n2. **Style**:\n   - Maintain {brand_voice} tone\n   - Use vivid sensory language\n   - Include 2-3 metaphors/analogies\n   - Apply \"show don't tell\" principle\n\n3. **Content Requirements**:\n   - Highlight recurring themes from last 3 conversations\n   - Preserve technical terms used in chat history\n   - Include implied emotional subtext\n   - Reference 1-2 historical parallels if relevant\n\nAvoid direct quotes. Keep paragraphs under 4 sentences. Target audience: LinkedIn professionals.",
                 "",
                 "text",
-                0.9,
+                0.7000000000000001,
                 1,
-                500,
-                0,
+                700,
+                0.3,
                 0
             ]
         },
@@ -448,7 +491,7 @@
                 412.5800476074219
             ],
             "flags": {},
-            "order": 5,
+            "order": 6,
             "mode": 0,
             "inputs": [
                 {
@@ -475,13 +518,13 @@
             },
             "widgets_values": [
                 "gpt-3.5-turbo",
-                "Imagine a scene that vividly captures the essence of the blog article below. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if itâs about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articleâs mood and setting, making it feel immersive and true to the storyâs narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articleâs message.\n\nBlog Article:\n",
+                "Analyze this blog article and create a visual scene blueprint:\n\n1. **Key Elements**:\n   - 3 primary visual metaphors from text\n   - Dominant color palette (HEX codes)\n   - Lighting style (e.g., volumetric, chiaroscuro)\n   - Focal point composition\n\n2. **Style Guidelines**:\n   - {brand_voice}-appropriate aesthetics\n   - Cultural references from chat history\n   - Recurring symbolic elements\n\n3. **Output Format**:\n   \"A [medium] depicting [main subject] [action], [environment details]. \n   Style: [art style] with [lighting type] lighting. \n   Color scheme: [primary]-[secondary]-[accent]. \n   Symbolic elements: [element1], [element2]\"\n\nExample: \n\"A digital painting depicting a knight assembling puzzle pieces in a foggy library. \nStyle: Corporate surrealism with soft volumetric lighting. \nColor scheme: #2A5CAA-#F0F4F8-#FFD700. \nSymbolic elements: Broken chains, growing sapling\"",
                 "",
                 "text",
-                0.9,
+                0.5,
                 1,
-                500,
-                0,
+                600,
+                0.2,
                 0
             ]
         },
@@ -497,7 +540,7 @@
                 411.9331970214844
             ],
             "flags": {},
-            "order": 6,
+            "order": 7,
             "mode": 0,
             "inputs": [
                 {
@@ -525,13 +568,13 @@
             },
             "widgets_values": [
                 "gpt-3.5-turbo",
-                "Stable Diffusion is an AI art generation model similar to DALLE-2.\nBelow is a list of prompts that can be used to generate images with Stable Diffusion:\n\n- portrait of a Homer Simpson archer shooting arrow at forest monster, front game card, dark, Marvel comics, intricate, highly detailed, smooth, artstation, digital illustration by Ruan Jia and Mandy Jurgens and Artgerm and Wayne Barlowe and Greg Rutkowski and Zdislav Beksinski\n- pirate, concept art, deep focus, fantasy, intricate, highly detailed, digital painting, artstation, matte, sharp focus, illustration, art by Magali Villeneuve, Chippy, Ryan Yee, RK Post, Clint Cearley, Daniel Ljunggren, Zoltan Boros, Gabor Szikszai, Howard Lyon, Steve Argyle, Winona Nelson\n- ghost inside a haunted room, art by Lois van Baarle and Loish and Ross Tran and RossDraws and Sam Yang and SamDoesArts and Artgerm, digital art, highly detailed, intricate, sharp focus, trending on Artstation HQ, DeviantArt, Unreal Engine 5, 4K UHD image\n- red dead redemption 2, cinematic view, epic sky, detailed, concept art, low angle, high detail, warm lighting, volumetric, godrays, vivid, beautiful, trending on Artstation, by Jordan Grimmer, huge scene, grass, art by Greg Rutkowski\n- Athena, Greek goddess, Claudia Black, art by Artgerm and Greg Rutkowski and Magali Villeneuve, bronze Greek armor, owl crown, D&D, fantasy, intricate, portrait, highly detailed, headshot, digital painting, trending on Artstation, concept art, sharp focus, illustration\n\nI want you to create one detailed prompt exactly about the scene written after SCENE. Follow the structure of the example prompts. This means a very short description of the scene, followed by modifiers divided by commas to alter the mood, style, lighting, and more. Make sure after reading the prompt the activity in the scene should be easy to understand.\n\nSCENE:\n",
+                "[Subject Description], [Action/State], [Environment Details], \nArt Style: [style1], [style2], [style3], \nTechnical: [camera angle], [lens type], [lighting], \nColor Palette: [primary], [secondary], [accent], \nModifiers: intricate details, 8k resolution, professional composition, \nArtists: [artist1], [artist2], [artist3], \nNegative Prompt: low quality, cartoonish, text, watermark, blurry\n\nExample:\n\"Middle-aged executive building neural network models in futuristic office, \nArt Style: corporate realism, cyberpunk elements, detailed linework, \nTechnical: low angle view, 85mm lens, volumetric lighting with godrays, \nColor Palette: #2A5CAA (primary), #F0F4F8 (secondary), #FFD700 (accent), \nModifiers: hyper-detailed circuitry, holographic displays, subtle lens flare, \nArtists: Syd Mead, Beeple, Ian McQue,\nNegative Prompt: anime style, childish elements, low contrast, JPEG artifacts\"",
                 "",
                 "text",
                 0.9,
                 1,
                 100,
-                0,
+                0.1,
                 0
             ]
         },
@@ -539,8 +582,8 @@
             "id": 36,
             "type": "astradb_search",
             "pos": [
-                -186.45791625976562,
-                56.993350982666016
+                -697.257568359375,
+                50.093345642089844
             ],
             "size": [
                 315,
@@ -555,7 +598,8 @@
                     "name": "STRING",
                     "type": "STRING",
                     "links": [
-                        46
+                        46,
+                        47
                     ],
                     "slot_index": 0
                 }
@@ -568,7 +612,7 @@
                 "",
                 "https://5afd1aea-8e4c-40c9-8e38-5100c6d8c2dd-us-east-2.apps.astra.datastax.com",
                 "chat_history",
-                "abcd"
+                "2e58d623-2c2e-4e0c-9f39-cc8b816642bc"
             ]
         }
     ],
@@ -692,6 +736,14 @@
             35,
             0,
             "STRING"
+        ],
+        [
+            47,
+            36,
+            0,
+            37,
+            0,
+            "STRING"
         ]
     ],
     "groups": [
@@ -751,10 +803,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.5131581182307069,
+            "scale": 0.8264462809917358,
             "offset": [
-                743.366160056366,
-                210.0240873461814
+                721.5141332133655,
+                -34.06725683709148
             ]
         }
     },
