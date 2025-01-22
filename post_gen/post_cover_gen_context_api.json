@@ -1,7 +1,7 @@
 {
     "10": {
         "inputs": {
-            "seed": 140004100054213,
+            "seed": 874109398570396,
             "steps": 20,
             "cfg": 1,
             "sampler_name": "euler",
@@ -132,10 +132,10 @@
                 0
             ],
             "response_format": "text",
-            "temperature": 0.9,
+            "temperature": 0.3,
             "top_p": 1,
-            "max_completion_tokens": 100,
-            "presence_penalty": 0.1,
+            "max_completion_tokens": 300,
+            "presence_penalty": 0.5,
             "frequency_penalty": 0
         },
         "class_type": "openai"
