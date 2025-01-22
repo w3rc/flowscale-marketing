@@ -160,7 +160,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                140004100054213,
+                874109398570396,
                 "randomize",
                 20,
                 1,
@@ -571,10 +571,10 @@
                 "[Subject Description], [Action/State], [Environment Details], \nArt Style: [style1], [style2], [style3], \nTechnical: [camera angle], [lens type], [lighting], \nColor Palette: [primary], [secondary], [accent], \nModifiers: intricate details, 8k resolution, professional composition, \nArtists: [artist1], [artist2], [artist3], \nNegative Prompt: low quality, cartoonish, text, watermark, blurry\n\nExample:\n\"Middle-aged executive building neural network models in futuristic office, \nArt Style: corporate realism, cyberpunk elements, detailed linework, \nTechnical: low angle view, 85mm lens, volumetric lighting with godrays, \nColor Palette: #2A5CAA (primary), #F0F4F8 (secondary), #FFD700 (accent), \nModifiers: hyper-detailed circuitry, holographic displays, subtle lens flare, \nArtists: Syd Mead, Beeple, Ian McQue,\nNegative Prompt: anime style, childish elements, low contrast, JPEG artifacts\"",
                 "",
                 "text",
-                0.9,
+                0.3,
                 1,
-                100,
-                0.1,
+                300,
+                0.5,
                 0
             ]
         },
@@ -803,10 +803,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.8264462809917358,
+            "scale": 0.5644739300537773,
             "offset": [
-                721.5141332133655,
-                -34.06725683709148
+                1155.6632411166715,
+                85.84454441332161
             ]
         }
     },
