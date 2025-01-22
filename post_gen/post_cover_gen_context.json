@@ -1,6 +1,6 @@
 {
-    "last_node_id": 37,
-    "last_link_id": 47,
+    "last_node_id": 41,
+    "last_link_id": 54,
     "nodes": [
         {
             "id": 16,
@@ -14,7 +14,7 @@
                 380.2356872558594
             ],
             "flags": {},
-            "order": 13,
+            "order": 16,
             "mode": 0,
             "inputs": [
                 {
@@ -44,7 +44,7 @@
             "flags": {
                 "collapsed": true
             },
-            "order": 12,
+            "order": 15,
             "mode": 0,
             "inputs": [
                 {
@@ -122,7 +122,7 @@
                 262
             ],
             "flags": {},
-            "order": 11,
+            "order": 14,
             "mode": 0,
             "inputs": [
                 {
@@ -160,7 +160,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                976027756397155,
+                426350858867871,
                 "randomize",
                 20,
                 1,
@@ -221,7 +221,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 9,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -269,7 +269,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 10,
+            "order": 13,
             "mode": 0,
             "inputs": [
                 {
@@ -308,7 +308,7 @@
                 204.48614501953125
             ],
             "flags": {},
-            "order": 8,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -337,50 +337,6 @@
             ]
         },
         {
-            "id": 37,
-            "type": "StringFunction|pysssss",
-            "pos": [
-                -218.3096466064453,
-                16.256237030029297
-            ],
-            "size": [
-                441.79998779296875,
-                315.29998779296875
-            ],
-            "flags": {},
-            "order": 5,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "text_b",
-                    "type": "STRING",
-                    "link": 47,
-                    "widget": {
-                        "name": "text_b"
-                    },
-                    "shape": 7
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": null
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "StringFunction|pysssss"
-            },
-            "widgets_values": [
-                "append",
-                "yes",
-                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n",
-                "",
-                "\\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n\n\n\\nUser's Prompt: \n",
-                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n, [{\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T10:05:20.612994\"}, {\"content\": \"Regenerate the image, add skyrim elements to it\", \"timestamp\": \"2025-01-22T10:05:19.401315\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T10:04:37.481056\"}, {\"content\": \"Regenerate the image\", \"timestamp\": \"2025-01-22T10:04:36.420173\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T10:02:58.851201\"}, {\"content\": \"Generate a post cover image on it\", \"timestamp\": \"2025-01-22T10:02:57.267783\"}, {\"content\": \"{\\\"AI\\\": \\\"We were discussing how the game Skyrim can teach professionals about creativity and innovation. It focused on immersive storytelling, exploration and innovation, adaptability and problem-solving, community and collaboration, and continuous learning and growth.\\\"}\", \"timestamp\": \"2025-01-22T10:02:07.455919\"}, {\"content\": \"Do you have any idea about my interests>\", \"timestamp\": \"2025-01-22T10:02:05.438273\"}, {\"content\": \"{\\\"AI\\\": \\\"Based on the available chat history, there is no specific information about you provided. If you have any LinkedIn content needs or other questions, feel free to ask!\\\"}\", \"timestamp\": \"2025-01-22T10:01:49.029786\"}, {\"content\": \"Do you knwo about me\", \"timestamp\": \"2025-01-22T10:01:46.877549\"}, {\"content\": \"{\\\"AI\\\": \\\"Hey there! What LinkedIn content can I assist you with today?\\\"}\", \"timestamp\": \"2025-01-22T09:18:49.822111\"}, {\"content\": \"{\\\"AI\\\": \\\"Hello! How can I assist you with LinkedIn content today?\\\"}\", \"timestamp\": \"2025-01-22T09:17:47.550592\"}, {\"content\": \"hii\", \"timestamp\": \"2025-01-22T09:17:46.154036\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T09:13:51.473409\"}, {\"content\": \"can you genberate a post cover on it\", \"timestamp\": \"2025-01-22T09:13:50.155009\"}, {\"content\": \"{\\\"AI\\\": \\\"Hello! How can I help with LinkedIn content today?\\\"}\", \"timestamp\": \"2025-01-22T09:13:26.268189\"}, {\"content\": \"hii\", \"timestamp\": \"2025-01-22T09:13:25.063595\"}, {\"content\": \"{\\\"AI\\\": \\\"We were generating LinkedIn content on discovering what Skyrim can teach professionals about creativity and innovation. The focus was on immersive storytelling, exploration and innovation, adaptability and problem-solving, community and collaboration, and continuous learning and growth.\\\"}\", \"timestamp\": \"2025-01-22T09:13:14.417309\"}, {\"content\": \"what were you generating linkenkedin content on?\", \"timestamp\": \"2025-01-22T09:13:11.968180\"}, {\"content\": \"l for career success. The ability to adjust strategies swiftly in the face of challenges can pave the way for achievements. 4. **Community and Collaboration**: Skyrim's modding community highlights the strength of collaboration. Embracing diverse perspectives and working as a team can spark innovative solutions that might not emerge in solitude. 5. **Continuous Learning and Growth**: Just as players level up in the game, professionals should commit to continuous learning. Evolving skills and gaining new insights are essential for staying competitive and growing in one's career. Let's embark on our professional journeys with a touch of Skyrim magic. Which reminder resonates with you the most? Feel free to share your thoughts or experiences below! \\ud83d\\udc47\\u2728, \\\"}\", \"timestamp\": \"2025-01-22T09:12:43.357265\"}], \\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n \\nUser's Prompt:"
-            ]
-        },
-        {
             "id": 35,
             "type": "openai",
             "pos": [
@@ -392,13 +348,13 @@
                 412.5800476074219
             ],
             "flags": {},
-            "order": 4,
+            "order": 7,
             "mode": 0,
             "inputs": [
                 {
                     "name": "prompt",
                     "type": "STRING",
-                    "link": 46,
+                    "link": 53,
                     "widget": {
                         "name": "prompt"
                     }
@@ -441,7 +397,7 @@
                 412.5800476074219
             ],
             "flags": {},
-            "order": 6,
+            "order": 9,
             "mode": 0,
             "inputs": [
                 {
@@ -490,7 +446,7 @@
                 411.9331970214844
             ],
             "flags": {},
-            "order": 7,
+            "order": 10,
             "mode": 0,
             "inputs": [
                 {
@@ -580,15 +536,15 @@
             ]
         },
         {
-            "id": 36,
-            "type": "astradb_search",
+            "id": 40,
+            "type": "PromptUtilitiesConstString",
             "pos": [
-                -697.257568359375,
-                50.093345642089844
+                -786.9656372070312,
+                -110.85233306884766
             ],
             "size": [
                 315,
-                154
+                58
             ],
             "flags": {},
             "order": 2,
@@ -599,7 +555,191 @@
                     "name": "STRING",
                     "type": "STRING",
                     "links": [
-                        46,
+                        51,
+                        52
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "title": "Prompt",
+            "properties": {
+                "Node name for S&R": "PromptUtilitiesConstString"
+            },
+            "widgets_values": [
+                ""
+            ]
+        },
+        {
+            "id": 37,
+            "type": "StringFunction|pysssss",
+            "pos": [
+                -176.17990112304688,
+                -66.79376220703125
+            ],
+            "size": [
+                446.1999816894531,
+                249.29998779296875
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text_b",
+                    "type": "STRING",
+                    "link": 47,
+                    "widget": {
+                        "name": "text_b"
+                    },
+                    "shape": 7
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        50
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "StringFunction|pysssss"
+            },
+            "widgets_values": [
+                "append",
+                "yes",
+                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n",
+                "",
+                "\\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n\n\n\\nUser's Prompt: \n",
+                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n, [{\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T10:05:20.612994\"}, {\"content\": \"Regenerate the image, add skyrim elements to it\", \"timestamp\": \"2025-01-22T10:05:19.401315\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T10:04:37.481056\"}, {\"content\": \"Regenerate the image\", \"timestamp\": \"2025-01-22T10:04:36.420173\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T10:02:58.851201\"}, {\"content\": \"Generate a post cover image on it\", \"timestamp\": \"2025-01-22T10:02:57.267783\"}, {\"content\": \"{\\\"AI\\\": \\\"We were discussing how the game Skyrim can teach professionals about creativity and innovation. It focused on immersive storytelling, exploration and innovation, adaptability and problem-solving, community and collaboration, and continuous learning and growth.\\\"}\", \"timestamp\": \"2025-01-22T10:02:07.455919\"}, {\"content\": \"Do you have any idea about my interests>\", \"timestamp\": \"2025-01-22T10:02:05.438273\"}, {\"content\": \"{\\\"AI\\\": \\\"Based on the available chat history, there is no specific information about you provided. If you have any LinkedIn content needs or other questions, feel free to ask!\\\"}\", \"timestamp\": \"2025-01-22T10:01:49.029786\"}, {\"content\": \"Do you knwo about me\", \"timestamp\": \"2025-01-22T10:01:46.877549\"}, {\"content\": \"{\\\"AI\\\": \\\"Hey there! What LinkedIn content can I assist you with today?\\\"}\", \"timestamp\": \"2025-01-22T09:18:49.822111\"}, {\"content\": \"{\\\"AI\\\": \\\"Hello! How can I assist you with LinkedIn content today?\\\"}\", \"timestamp\": \"2025-01-22T09:17:47.550592\"}, {\"content\": \"hii\", \"timestamp\": \"2025-01-22T09:17:46.154036\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T09:13:51.473409\"}, {\"content\": \"can you genberate a post cover on it\", \"timestamp\": \"2025-01-22T09:13:50.155009\"}, {\"content\": \"{\\\"AI\\\": \\\"Hello! How can I help with LinkedIn content today?\\\"}\", \"timestamp\": \"2025-01-22T09:13:26.268189\"}, {\"content\": \"hii\", \"timestamp\": \"2025-01-22T09:13:25.063595\"}, {\"content\": \"{\\\"AI\\\": \\\"We were generating LinkedIn content on discovering what Skyrim can teach professionals about creativity and innovation. The focus was on immersive storytelling, exploration and innovation, adaptability and problem-solving, community and collaboration, and continuous learning and growth.\\\"}\", \"timestamp\": \"2025-01-22T09:13:14.417309\"}, {\"content\": \"what were you generating linkenkedin content on?\", \"timestamp\": \"2025-01-22T09:13:11.968180\"}, {\"content\": \"l for career success. The ability to adjust strategies swiftly in the face of challenges can pave the way for achievements. 4. **Community and Collaboration**: Skyrim's modding community highlights the strength of collaboration. Embracing diverse perspectives and working as a team can spark innovative solutions that might not emerge in solitude. 5. **Continuous Learning and Growth**: Just as players level up in the game, professionals should commit to continuous learning. Evolving skills and gaining new insights are essential for staying competitive and growing in one's career. Let's embark on our professional journeys with a touch of Skyrim magic. Which reminder resonates with you the most? Feel free to share your thoughts or experiences below! \\ud83d\\udc47\\u2728, \\\"}\", \"timestamp\": \"2025-01-22T09:12:43.357265\"}], \\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n \\nUser's Prompt:"
+            ]
+        },
+        {
+            "id": 39,
+            "type": "StringFunction|pysssss",
+            "pos": [
+                -706.6654663085938,
+                339.0476989746094
+            ],
+            "size": [
+                379.1000061035156,
+                164
+            ],
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text_a",
+                    "type": "STRING",
+                    "link": 50,
+                    "widget": {
+                        "name": "text_a"
+                    },
+                    "shape": 7
+                },
+                {
+                    "name": "text_b",
+                    "type": "STRING",
+                    "link": 52,
+                    "widget": {
+                        "name": "text_b"
+                    },
+                    "shape": 7
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        53,
+                        54
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "StringFunction|pysssss"
+            },
+            "widgets_values": [
+                "append",
+                "yes",
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "id": 41,
+            "type": "ShowText|pysssss",
+            "pos": [
+                -99.46558380126953,
+                355.5476379394531
+            ],
+            "size": [
+                315,
+                58
+            ],
+            "flags": {},
+            "order": 8,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "link": 54,
+                    "widget": {
+                        "name": "text"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "ShowText|pysssss"
+            },
+            "widgets_values": [
+                ""
+            ]
+        },
+        {
+            "id": 36,
+            "type": "astradb_search",
+            "pos": [
+                -800.1077270507812,
+                28.313356399536133
+            ],
+            "size": [
+                315,
+                154
+            ],
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "search_query",
+                    "type": "STRING",
+                    "link": 51,
+                    "widget": {
+                        "name": "search_query"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
                         47
                     ],
                     "slot_index": 0
@@ -731,18 +871,50 @@
             "STRING"
         ],
         [
-            46,
+            47,
             36,
+            0,
+            37,
+            0,
+            "STRING"
+        ],
+        [
+            50,
+            37,
+            0,
+            39,
+            0,
+            "STRING"
+        ],
+        [
+            51,
+            40,
+            0,
+            36,
+            0,
+            "STRING"
+        ],
+        [
+            52,
+            40,
+            0,
+            39,
+            1,
+            "STRING"
+        ],
+        [
+            53,
+            39,
             0,
             35,
             0,
             "STRING"
         ],
         [
-            47,
-            36,
+            54,
+            39,
             0,
-            37,
+            41,
             0,
             "STRING"
         ]
@@ -804,10 +976,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.6830134553650712,
+            "scale": 0.8264462809917354,
             "offset": [
-                968.9960537266692,
-                176.58848849332162
+                1061.8556537266707,
+                108.10228849332239
             ]
         }
     },
