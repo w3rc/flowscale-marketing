@@ -1,6 +1,6 @@
 {
     "last_node_id": 41,
-    "last_link_id": 54,
+    "last_link_id": 56,
     "nodes": [
         {
             "id": 16,
@@ -14,7 +14,7 @@
                 380.2356872558594
             ],
             "flags": {},
-            "order": 16,
+            "order": 15,
             "mode": 0,
             "inputs": [
                 {
@@ -44,7 +44,7 @@
             "flags": {
                 "collapsed": true
             },
-            "order": 15,
+            "order": 14,
             "mode": 0,
             "inputs": [
                 {
@@ -122,7 +122,7 @@
                 262
             ],
             "flags": {},
-            "order": 14,
+            "order": 13,
             "mode": 0,
             "inputs": [
                 {
@@ -160,7 +160,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                859526387230679,
+                809325360562978,
                 "randomize",
                 20,
                 1,
@@ -221,7 +221,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 12,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -232,7 +232,7 @@
                 {
                     "name": "text",
                     "type": "STRING",
-                    "link": 43,
+                    "link": 56,
                     "widget": {
                         "name": "text"
                     }
@@ -269,7 +269,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 13,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -294,194 +294,6 @@
             },
             "widgets_values": [
                 3.5
-            ]
-        },
-        {
-            "id": 22,
-            "type": "ShowText|pysssss",
-            "pos": [
-                209.6847381591797,
-                1166.8499755859375
-            ],
-            "size": [
-                394.3095703125,
-                204.48614501953125
-            ],
-            "flags": {},
-            "order": 11,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "text",
-                    "type": "STRING",
-                    "link": 42,
-                    "widget": {
-                        "name": "text"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": null,
-                    "shape": 6
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "ShowText|pysssss"
-            },
-            "widgets_values": [
-                "",
-                "\"A digital illustration depicting a professional navigating a dynamic landscape reminiscent of Skyrim, facing challenges and seizing opportunities. \nArt Style: Fantasy realism with dynamic lighting, intricate details, \nTechnical: medium angle view, 50mm lens, dynamic lighting with shadows and highlights, \nColor Palette: #1A1A1A (primary), #5D5D5D (secondary), #BEBEBE (accent), \nModifiers: detailed landscapes, magical effects, weather elements, \nArtists: Greg Rutkowski, Noah Bradley, Paul Scott Canavan,\nNegative Prompt: cartoonish style, flat lighting, oversaturated colors\""
-            ]
-        },
-        {
-            "id": 35,
-            "type": "openai",
-            "pos": [
-                -719.498046875,
-                566.8007202148438
-            ],
-            "size": [
-                415.7300109863281,
-                412.5800476074219
-            ],
-            "flags": {},
-            "order": 7,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 53,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "response",
-                    "type": "STRING",
-                    "links": [
-                        45
-                    ],
-                    "slot_index": 0
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "openai"
-            },
-            "widgets_values": [
-                "gpt-3.5-turbo",
-                "Create a comprehensive blog article that synthesizes key elements from the conversation history. Follow these guidelines:\n\n1. **Structure**:\n   - Opening hook: Start with surprising statistic/question/metaphor\n   - 3 key sections with subheadings\n   - Actionable conclusion\n\n2. **Style**:\n   - Maintain {brand_voice} tone\n   - Use vivid sensory language\n   - Include 2-3 metaphors/analogies\n   - Apply \"show don't tell\" principle\n\n3. **Content Requirements**:\n   - Highlight recurring themes from last 3 conversations\n   - Preserve technical terms used in chat history\n   - Include implied emotional subtext\n   - Reference 1-2 historical parallels if relevant\n\nAvoid direct quotes. Keep paragraphs under 4 sentences. Target audience: LinkedIn professionals.",
-                "",
-                "text",
-                0.7000000000000001,
-                1,
-                700,
-                0.3,
-                0
-            ]
-        },
-        {
-            "id": 33,
-            "type": "openai",
-            "pos": [
-                -225.01602172851562,
-                564.4193115234375
-            ],
-            "size": [
-                415.7300109863281,
-                412.5800476074219
-            ],
-            "flags": {},
-            "order": 9,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 45,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "response",
-                    "type": "STRING",
-                    "links": [
-                        41
-                    ],
-                    "slot_index": 0
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "openai"
-            },
-            "widgets_values": [
-                "gpt-3.5-turbo",
-                "Analyze this blog article and create a visual scene blueprint:\n\n1. **Key Elements**:\n   - 3 primary visual metaphors from text\n   - Dominant color palette (HEX codes)\n   - Lighting style (e.g., volumetric, chiaroscuro)\n   - Focal point composition\n\n2. **Style Guidelines**:\n   - {brand_voice}-appropriate aesthetics\n   - Cultural references from chat history\n   - Recurring symbolic elements\n\n3. **Output Format**:\n   \"A [medium] depicting [main subject] [action], [environment details]. \n   Style: [art style] with [lighting type] lighting. \n   Color scheme: [primary]-[secondary]-[accent]. \n   Symbolic elements: [element1], [element2]\"\n\nExample: \n\"A digital painting depicting a knight assembling puzzle pieces in a foggy library. \nStyle: Corporate surrealism with soft volumetric lighting. \nColor scheme: #2A5CAA-#F0F4F8-#FFD700. \nSymbolic elements: Broken chains, growing sapling\"",
-                "",
-                "text",
-                0.5,
-                1,
-                600,
-                0.2,
-                0
-            ]
-        },
-        {
-            "id": 34,
-            "type": "openai",
-            "pos": [
-                222.18821716308594,
-                565.910400390625
-            ],
-            "size": [
-                459.4076843261719,
-                411.9331970214844
-            ],
-            "flags": {},
-            "order": 10,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 41,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "response",
-                    "type": "STRING",
-                    "links": [
-                        42,
-                        43
-                    ],
-                    "slot_index": 0
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "openai"
-            },
-            "widgets_values": [
-                "gpt-3.5-turbo",
-                "[Subject Description], [Action/State], [Environment Details], \nArt Style: [style1], [style2], [style3], \nTechnical: [camera angle], [lens type], [lighting], \nColor Palette: [primary], [secondary], [accent], \nModifiers: intricate details, 8k resolution, professional composition, \nArtists: [artist1], [artist2], [artist3], \nNegative Prompt: low quality, cartoonish, text, watermark, blurry\n\nExample:\n\"Middle-aged executive building neural network models in futuristic office, \nArt Style: corporate realism, cyberpunk elements, detailed linework, \nTechnical: low angle view, 85mm lens, volumetric lighting with godrays, \nColor Palette: #2A5CAA (primary), #F0F4F8 (secondary), #FFD700 (accent), \nModifiers: hyper-detailed circuitry, holographic displays, subtle lens flare, \nArtists: Syd Mead, Beeple, Ian McQue,\nNegative Prompt: anime style, childish elements, low contrast, JPEG artifacts\"",
-                "",
-                "text",
-                0.3,
-                1,
-                300,
-                0.5,
-                0
             ]
         },
         {
@@ -536,85 +348,6 @@
             ]
         },
         {
-            "id": 40,
-            "type": "PromptUtilitiesConstString",
-            "pos": [
-                -786.9656372070312,
-                -110.85233306884766
-            ],
-            "size": [
-                315,
-                58
-            ],
-            "flags": {},
-            "order": 2,
-            "mode": 0,
-            "inputs": [],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        52
-                    ],
-                    "slot_index": 0
-                }
-            ],
-            "title": "Prompt",
-            "properties": {
-                "Node name for S&R": "PromptUtilitiesConstString"
-            },
-            "widgets_values": [
-                ""
-            ]
-        },
-        {
-            "id": 37,
-            "type": "StringFunction|pysssss",
-            "pos": [
-                -176.17990112304688,
-                -66.79376220703125
-            ],
-            "size": [
-                446.1999816894531,
-                249.29998779296875
-            ],
-            "flags": {},
-            "order": 5,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "text_b",
-                    "type": "STRING",
-                    "link": 47,
-                    "widget": {
-                        "name": "text_b"
-                    },
-                    "shape": 7
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        50
-                    ],
-                    "slot_index": 0
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "StringFunction|pysssss"
-            },
-            "widgets_values": [
-                "append",
-                "yes",
-                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n",
-                "",
-                "\\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n\n\n\\nUser's Prompt: \n"
-            ]
-        },
-        {
             "id": 39,
             "type": "StringFunction|pysssss",
             "pos": [
@@ -623,7 +356,7 @@
             ],
             "size": [
                 379.1000061035156,
-                164
+                194
             ],
             "flags": {},
             "order": 6,
@@ -667,19 +400,67 @@
                 "yes",
                 "",
                 "",
-                ""
+                "",
+                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n, [{\"content\": \"en decisions and a culture that embraces failure are Google's pillars of success. Embrace curiosity, diverse perspectives, and data for your own innovation journey. \\ud83d\\udd0d How do you foster innovation in your team? Share below! [#Innovation](https://www.linkedin.com/feed/hashtag/innovation) [#Leadership](https://www.linkedin.com/feed/hashtag/leadership) [#ContinuousLearning](https://www.linkedin.com/feed/hashtag/continuouslearning) **Character Count**: 1,135 **Word Count**: 196, \\\"}\", \"timestamp\": \"2025-01-22T13:09:45.353960\"}, {\"content\": \"s ingrained in their DNA. Each stumble is a stepping stone towards progress, fostering an environment where innovation thrives without the fear of mistakes. To infuse this innovative spirit into your career, adopt a mindset of curiosity and continuous learning. Embrace diverse perspectives, collaborate openly, and make data-backed decisions fearlessly. Most importantly, see failures as valuable lessons on the path to success. \\ud83d\\udd0d How do you cultivate innovation within your team or organization? Share your thoughts below! [#Innovation](https://www.linkedin.com/feed/hashtag/innovation) [#Leadership](https://www.linkedin.com/feed/hashtag/leadership) [#ContinuousLearning](https://www.linkedin.com/feed/hashtag/continuouslearning) --- **Character Count**: 1,855 **Word Count**: 333 **Shortened Version:** \\ud83c\\udfaf Decode Google's innovation magic and ignite your professional journey! Google thrives on diversity and collaboration, with the \\\"20% time\\\" policy sparking groundbreaking innovations. Data-driv\", \"timestamp\": \"2025-01-22T13:09:45.353959\"}, {\"content\": \"{\\\"AI\\\": \\\", \\ud83c\\udfaf Unravel the secret behind Google's innovation flair and learn how to supercharge your professional journey! Google shines as a trailblazer of innovation, fueled by a culture that thrives on diverse perspectives and collaboration. This vibrant ecosystem celebrates unique viewpoints, leading to a tapestry of ideas and robust solutions. A standout feature of Google's innovation is the famed \\\"20% time\\\" policy, a realm where employees dedicate a fifth of their workweek to passion projects. This freedom has birthed gems like Gmail and Google News, nurturing organic innovation while boosting morale. At the core of Google's success lies its data-driven approach. The strategic use of data ensures decisions are grounded in evidence, reducing risk and optimizing results. This analytical mindset fortifies innovative ideas with solid backing, paving the way for success. Failure isn't a setback at Google; it's a necessity for growth. Embracing experimentation and learning from failures i\", \"timestamp\": \"2025-01-22T13:09:45.353951\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_with_cover\\\"}\", \"timestamp\": \"2025-01-22T13:07:44.569397\"}, {\"content\": \"Give me linkedin post about google with cover.\", \"timestamp\": \"2025-01-22T13:07:43.893893\"}, {\"content\": \"nals face the challenge of harnessing this intensity as a positive force in their professional endeavors. \\ud83d\\udd0d How do you harness your emotions to ignite innovation and success in your career? Share your insights below! \\ud83d\\ude80 [Character Count: 1,783 | Word Count: 328] #Leadership #Innovation #EmotionalIntelligence #TechPioneers #CareerGrowth, \\\"}\", \"timestamp\": \"2025-01-22T13:06:31.037520\"}, {\"content\": \"s products; it was about achieving groundbreaking technological advancements. His relentless pursuit of excellence was the driving energy behind Apple's triumphs, pushing the boundaries of what was deemed achievable. Beneath this pursuit, there simmered an emotional intensity of equal significance. Jobs was famed for his fiery outbursts, which, despite their intensity, often sparked creativity and innovation. His passion served as a force that transformed abstract visions into revolutionary realities. Jobs' unique leadership style wasn't devoid of challenges. His intensity occasionally led to tensions, but he possessed a rare gift for motivating and uniting his team around a shared vision. His emotional fervor evolved into a unifying power, propelling his team to surpass expectations and innovate boldly. The lesson from Jobs is clear: when channeled appropriately, emotional intensity can be a powerful driver of success. It is not to be suppressed; it is a tool to be embraced. Professio\", \"timestamp\": \"2025-01-22T13:06:31.037518\"}, {\"content\": \"Jobs' intense emotions sometimes led to friction, yet his talent for inspiring and uniting his team around a common goal was unmatched. He transformed emotional intensity into a unifying energy, propelling his team not only to meet but to exceed expectations. The message from Jobs' leadership is crystal clear: emotional intensity, when harnessed effectively, can be a potent catalyst for success. Passion is not to be stifled; it is a tool to be wielded. For professionals, the task lies in channeling this intensity into a source of positive transformation. \\ud83d\\udd0d How do you tap into your emotions to drive innovation and success in your professional journey? Share your thoughts below! \\ud83d\\ude80 [Character Count: 1,734 | Word Count: 318] --- \\ud83c\\udf1f What if I shared with you that Steve Jobs' legendary passion wasn't just about perfection, but the fiery emotions that fueled Apple's groundbreaking innovations? Jobs was celebrated for his unwavering pursuit of perfection. It wasn't solely about crafting flawles\", \"timestamp\": \"2025-01-22T13:06:31.037517\"}, {\"content\": \"{\\\"AI\\\": \\\", \\ud83c\\udfaf Imagine if I shared with you that Steve Jobs' iconic fervor wasn't solely about achieving perfection but rather the explosive emotions that ignited Apple's revolutionary breakthroughs! Steve Jobs epitomized the relentless pursuit of greatness. It wasn't just about flawless end products but about pushing the limits of technological advancement. Jobs didn't settle for anything less than the best, not just from his creations but from all those around him. His pursuit of perfection was the driving force that catapulted Apple to extraordinary heights. Beneath this pursuit, there simmered an emotional fervor that was equally iconic. Jobs was famous for his passionate outbursts, which often sparked creativity and ingenuity within his team. It was this emotional fire that transformed vague concepts into tangible innovations. Jobs' zeal wasn't just about perfecting his craft; it was the spark that illuminated the path to progress. Nonetheless, his leadership style faced challenges. \", \"timestamp\": \"2025-01-22T13:06:31.037500\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_with_cover\\\"}\", \"timestamp\": \"2025-01-22T13:04:47.076925\"}, {\"content\": \"give me a post about harry potter and a cover.\", \"timestamp\": \"2025-01-22T13:04:46.037367\"}, {\"content\": \"{\\\"AI\\\":\\\"The prompt is unrelated to LinkedIn content creation. You can search for Harry Potter fan art or use an image editing tool to create the desired image.\\\"}\", \"timestamp\": \"2025-01-22T13:04:20.155043\"}, {\"content\": \"give me a image of harry potter riding a horse.\", \"timestamp\": \"2025-01-22T13:04:19.046034\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T13:02:32.795944\"}, {\"content\": \"Regenerate the cover image of Steve Jobs looking at the mac.\", \"timestamp\": \"2025-01-22T13:02:31.441109\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T12:53:32.515355\"}, {\"content\": \"Regenerate the cover image with Steve Jobs in it.\", \"timestamp\": \"2025-01-22T12:53:31.681881\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T12:51:40.571357\"}, {\"content\": \"generate a post cover based on the most recent topic in the conversation\", \"timestamp\": \"2025-01-22T12:51:39.040611\"}, {\"content\": \"haracter Count**: 1,866 **Word Count**: 314 --- **Alternative Short Version** \\ud83c\\udf1f Decoding Steve Jobs: Lessons in Leading with Emotional Gusto Steve Jobs' relentless pursuit of perfection often ignited fiery emotions. Though tumultuous, it sparked Apple's innovation streak. His tale illuminates that intense emotions fuel creativity yet may also spark discord. Jobs' talent at inspiring amid tempests was pivotal. His fervor, albeit overwhelming at times, steered his team towards a unified goal. His legacy guides us to harness emotions productively for pioneering breakthroughs. How do you leverage your emotions for triumph? Share your insights below! \\ud83d\\udc47 [Blank line] #LeadershipMagic #InnovativeSpirit #GrowthGreetings **Character Count**: 766 **Word Count**: 126, \\\"}\", \"timestamp\": \"2025-01-22T12:50:56.872517\"}], \\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n \\nUser's Prompt:, Generate a cover image of angry steve jobs"
+            ]
+        },
+        {
+            "id": 37,
+            "type": "StringFunction|pysssss",
+            "pos": [
+                -172.28245544433594,
+                24.79593276977539
+            ],
+            "size": [
+                446.1999816894531,
+                249.29998779296875
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text_b",
+                    "type": "STRING",
+                    "link": 47,
+                    "widget": {
+                        "name": "text_b"
+                    },
+                    "shape": 7
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        50
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "StringFunction|pysssss"
+            },
+            "widgets_values": [
+                "append",
+                "yes",
+                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n",
+                "",
+                "\\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n\n\n\\nUser's Prompt: \n",
+                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n, [{\"content\": \"en decisions and a culture that embraces failure are Google's pillars of success. Embrace curiosity, diverse perspectives, and data for your own innovation journey. \\ud83d\\udd0d How do you foster innovation in your team? Share below! [#Innovation](https://www.linkedin.com/feed/hashtag/innovation) [#Leadership](https://www.linkedin.com/feed/hashtag/leadership) [#ContinuousLearning](https://www.linkedin.com/feed/hashtag/continuouslearning) **Character Count**: 1,135 **Word Count**: 196, \\\"}\", \"timestamp\": \"2025-01-22T13:09:45.353960\"}, {\"content\": \"s ingrained in their DNA. Each stumble is a stepping stone towards progress, fostering an environment where innovation thrives without the fear of mistakes. To infuse this innovative spirit into your career, adopt a mindset of curiosity and continuous learning. Embrace diverse perspectives, collaborate openly, and make data-backed decisions fearlessly. Most importantly, see failures as valuable lessons on the path to success. \\ud83d\\udd0d How do you cultivate innovation within your team or organization? Share your thoughts below! [#Innovation](https://www.linkedin.com/feed/hashtag/innovation) [#Leadership](https://www.linkedin.com/feed/hashtag/leadership) [#ContinuousLearning](https://www.linkedin.com/feed/hashtag/continuouslearning) --- **Character Count**: 1,855 **Word Count**: 333 **Shortened Version:** \\ud83c\\udfaf Decode Google's innovation magic and ignite your professional journey! Google thrives on diversity and collaboration, with the \\\"20% time\\\" policy sparking groundbreaking innovations. Data-driv\", \"timestamp\": \"2025-01-22T13:09:45.353959\"}, {\"content\": \"{\\\"AI\\\": \\\", \\ud83c\\udfaf Unravel the secret behind Google's innovation flair and learn how to supercharge your professional journey! Google shines as a trailblazer of innovation, fueled by a culture that thrives on diverse perspectives and collaboration. This vibrant ecosystem celebrates unique viewpoints, leading to a tapestry of ideas and robust solutions. A standout feature of Google's innovation is the famed \\\"20% time\\\" policy, a realm where employees dedicate a fifth of their workweek to passion projects. This freedom has birthed gems like Gmail and Google News, nurturing organic innovation while boosting morale. At the core of Google's success lies its data-driven approach. The strategic use of data ensures decisions are grounded in evidence, reducing risk and optimizing results. This analytical mindset fortifies innovative ideas with solid backing, paving the way for success. Failure isn't a setback at Google; it's a necessity for growth. Embracing experimentation and learning from failures i\", \"timestamp\": \"2025-01-22T13:09:45.353951\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_with_cover\\\"}\", \"timestamp\": \"2025-01-22T13:07:44.569397\"}, {\"content\": \"Give me linkedin post about google with cover.\", \"timestamp\": \"2025-01-22T13:07:43.893893\"}, {\"content\": \"nals face the challenge of harnessing this intensity as a positive force in their professional endeavors. \\ud83d\\udd0d How do you harness your emotions to ignite innovation and success in your career? Share your insights below! \\ud83d\\ude80 [Character Count: 1,783 | Word Count: 328] #Leadership #Innovation #EmotionalIntelligence #TechPioneers #CareerGrowth, \\\"}\", \"timestamp\": \"2025-01-22T13:06:31.037520\"}, {\"content\": \"s products; it was about achieving groundbreaking technological advancements. His relentless pursuit of excellence was the driving energy behind Apple's triumphs, pushing the boundaries of what was deemed achievable. Beneath this pursuit, there simmered an emotional intensity of equal significance. Jobs was famed for his fiery outbursts, which, despite their intensity, often sparked creativity and innovation. His passion served as a force that transformed abstract visions into revolutionary realities. Jobs' unique leadership style wasn't devoid of challenges. His intensity occasionally led to tensions, but he possessed a rare gift for motivating and uniting his team around a shared vision. His emotional fervor evolved into a unifying power, propelling his team to surpass expectations and innovate boldly. The lesson from Jobs is clear: when channeled appropriately, emotional intensity can be a powerful driver of success. It is not to be suppressed; it is a tool to be embraced. Professio\", \"timestamp\": \"2025-01-22T13:06:31.037518\"}, {\"content\": \"Jobs' intense emotions sometimes led to friction, yet his talent for inspiring and uniting his team around a common goal was unmatched. He transformed emotional intensity into a unifying energy, propelling his team not only to meet but to exceed expectations. The message from Jobs' leadership is crystal clear: emotional intensity, when harnessed effectively, can be a potent catalyst for success. Passion is not to be stifled; it is a tool to be wielded. For professionals, the task lies in channeling this intensity into a source of positive transformation. \\ud83d\\udd0d How do you tap into your emotions to drive innovation and success in your professional journey? Share your thoughts below! \\ud83d\\ude80 [Character Count: 1,734 | Word Count: 318] --- \\ud83c\\udf1f What if I shared with you that Steve Jobs' legendary passion wasn't just about perfection, but the fiery emotions that fueled Apple's groundbreaking innovations? Jobs was celebrated for his unwavering pursuit of perfection. It wasn't solely about crafting flawles\", \"timestamp\": \"2025-01-22T13:06:31.037517\"}, {\"content\": \"{\\\"AI\\\": \\\", \\ud83c\\udfaf Imagine if I shared with you that Steve Jobs' iconic fervor wasn't solely about achieving perfection but rather the explosive emotions that ignited Apple's revolutionary breakthroughs! Steve Jobs epitomized the relentless pursuit of greatness. It wasn't just about flawless end products but about pushing the limits of technological advancement. Jobs didn't settle for anything less than the best, not just from his creations but from all those around him. His pursuit of perfection was the driving force that catapulted Apple to extraordinary heights. Beneath this pursuit, there simmered an emotional fervor that was equally iconic. Jobs was famous for his passionate outbursts, which often sparked creativity and ingenuity within his team. It was this emotional fire that transformed vague concepts into tangible innovations. Jobs' zeal wasn't just about perfecting his craft; it was the spark that illuminated the path to progress. Nonetheless, his leadership style faced challenges. \", \"timestamp\": \"2025-01-22T13:06:31.037500\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_with_cover\\\"}\", \"timestamp\": \"2025-01-22T13:04:47.076925\"}, {\"content\": \"give me a post about harry potter and a cover.\", \"timestamp\": \"2025-01-22T13:04:46.037367\"}, {\"content\": \"{\\\"AI\\\":\\\"The prompt is unrelated to LinkedIn content creation. You can search for Harry Potter fan art or use an image editing tool to create the desired image.\\\"}\", \"timestamp\": \"2025-01-22T13:04:20.155043\"}, {\"content\": \"give me a image of harry potter riding a horse.\", \"timestamp\": \"2025-01-22T13:04:19.046034\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T13:02:32.795944\"}, {\"content\": \"Regenerate the cover image of Steve Jobs looking at the mac.\", \"timestamp\": \"2025-01-22T13:02:31.441109\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T12:53:32.515355\"}, {\"content\": \"Regenerate the cover image with Steve Jobs in it.\", \"timestamp\": \"2025-01-22T12:53:31.681881\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T12:51:40.571357\"}, {\"content\": \"generate a post cover based on the most recent topic in the conversation\", \"timestamp\": \"2025-01-22T12:51:39.040611\"}, {\"content\": \"haracter Count**: 1,866 **Word Count**: 314 --- **Alternative Short Version** \\ud83c\\udf1f Decoding Steve Jobs: Lessons in Leading with Emotional Gusto Steve Jobs' relentless pursuit of perfection often ignited fiery emotions. Though tumultuous, it sparked Apple's innovation streak. His tale illuminates that intense emotions fuel creativity yet may also spark discord. Jobs' talent at inspiring amid tempests was pivotal. His fervor, albeit overwhelming at times, steered his team towards a unified goal. His legacy guides us to harness emotions productively for pioneering breakthroughs. How do you leverage your emotions for triumph? Share your insights below! \\ud83d\\udc47 [Blank line] #LeadershipMagic #InnovativeSpirit #GrowthGreetings **Character Count**: 766 **Word Count**: 126, \\\"}\", \"timestamp\": \"2025-01-22T12:50:56.872517\"}], \\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n \\nUser's Prompt:"
             ]
         },
         {
             "id": 41,
             "type": "ShowText|pysssss",
             "pos": [
-                -99.46558380126953,
-                355.5476379394531
+                -167.67063903808594,
+                326.31683349609375
             ],
             "size": [
-                315,
-                58
+                459.205078125,
+                91.12818908691406
             ],
             "flags": {},
             "order": 8,
@@ -706,7 +487,180 @@
                 "Node name for S&R": "ShowText|pysssss"
             },
             "widgets_values": [
-                ""
+                "",
+                "This is the chat history of the current conversation. \\n\\n\n\\nChat History: \\n, [{\"content\": \"en decisions and a culture that embraces failure are Google's pillars of success. Embrace curiosity, diverse perspectives, and data for your own innovation journey. \\ud83d\\udd0d How do you foster innovation in your team? Share below! [#Innovation](https://www.linkedin.com/feed/hashtag/innovation) [#Leadership](https://www.linkedin.com/feed/hashtag/leadership) [#ContinuousLearning](https://www.linkedin.com/feed/hashtag/continuouslearning) **Character Count**: 1,135 **Word Count**: 196, \\\"}\", \"timestamp\": \"2025-01-22T13:09:45.353960\"}, {\"content\": \"s ingrained in their DNA. Each stumble is a stepping stone towards progress, fostering an environment where innovation thrives without the fear of mistakes. To infuse this innovative spirit into your career, adopt a mindset of curiosity and continuous learning. Embrace diverse perspectives, collaborate openly, and make data-backed decisions fearlessly. Most importantly, see failures as valuable lessons on the path to success. \\ud83d\\udd0d How do you cultivate innovation within your team or organization? Share your thoughts below! [#Innovation](https://www.linkedin.com/feed/hashtag/innovation) [#Leadership](https://www.linkedin.com/feed/hashtag/leadership) [#ContinuousLearning](https://www.linkedin.com/feed/hashtag/continuouslearning) --- **Character Count**: 1,855 **Word Count**: 333 **Shortened Version:** \\ud83c\\udfaf Decode Google's innovation magic and ignite your professional journey! Google thrives on diversity and collaboration, with the \\\"20% time\\\" policy sparking groundbreaking innovations. Data-driv\", \"timestamp\": \"2025-01-22T13:09:45.353959\"}, {\"content\": \"{\\\"AI\\\": \\\", \\ud83c\\udfaf Unravel the secret behind Google's innovation flair and learn how to supercharge your professional journey! Google shines as a trailblazer of innovation, fueled by a culture that thrives on diverse perspectives and collaboration. This vibrant ecosystem celebrates unique viewpoints, leading to a tapestry of ideas and robust solutions. A standout feature of Google's innovation is the famed \\\"20% time\\\" policy, a realm where employees dedicate a fifth of their workweek to passion projects. This freedom has birthed gems like Gmail and Google News, nurturing organic innovation while boosting morale. At the core of Google's success lies its data-driven approach. The strategic use of data ensures decisions are grounded in evidence, reducing risk and optimizing results. This analytical mindset fortifies innovative ideas with solid backing, paving the way for success. Failure isn't a setback at Google; it's a necessity for growth. Embracing experimentation and learning from failures i\", \"timestamp\": \"2025-01-22T13:09:45.353951\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_with_cover\\\"}\", \"timestamp\": \"2025-01-22T13:07:44.569397\"}, {\"content\": \"Give me linkedin post about google with cover.\", \"timestamp\": \"2025-01-22T13:07:43.893893\"}, {\"content\": \"nals face the challenge of harnessing this intensity as a positive force in their professional endeavors. \\ud83d\\udd0d How do you harness your emotions to ignite innovation and success in your career? Share your insights below! \\ud83d\\ude80 [Character Count: 1,783 | Word Count: 328] #Leadership #Innovation #EmotionalIntelligence #TechPioneers #CareerGrowth, \\\"}\", \"timestamp\": \"2025-01-22T13:06:31.037520\"}, {\"content\": \"s products; it was about achieving groundbreaking technological advancements. His relentless pursuit of excellence was the driving energy behind Apple's triumphs, pushing the boundaries of what was deemed achievable. Beneath this pursuit, there simmered an emotional intensity of equal significance. Jobs was famed for his fiery outbursts, which, despite their intensity, often sparked creativity and innovation. His passion served as a force that transformed abstract visions into revolutionary realities. Jobs' unique leadership style wasn't devoid of challenges. His intensity occasionally led to tensions, but he possessed a rare gift for motivating and uniting his team around a shared vision. His emotional fervor evolved into a unifying power, propelling his team to surpass expectations and innovate boldly. The lesson from Jobs is clear: when channeled appropriately, emotional intensity can be a powerful driver of success. It is not to be suppressed; it is a tool to be embraced. Professio\", \"timestamp\": \"2025-01-22T13:06:31.037518\"}, {\"content\": \"Jobs' intense emotions sometimes led to friction, yet his talent for inspiring and uniting his team around a common goal was unmatched. He transformed emotional intensity into a unifying energy, propelling his team not only to meet but to exceed expectations. The message from Jobs' leadership is crystal clear: emotional intensity, when harnessed effectively, can be a potent catalyst for success. Passion is not to be stifled; it is a tool to be wielded. For professionals, the task lies in channeling this intensity into a source of positive transformation. \\ud83d\\udd0d How do you tap into your emotions to drive innovation and success in your professional journey? Share your thoughts below! \\ud83d\\ude80 [Character Count: 1,734 | Word Count: 318] --- \\ud83c\\udf1f What if I shared with you that Steve Jobs' legendary passion wasn't just about perfection, but the fiery emotions that fueled Apple's groundbreaking innovations? Jobs was celebrated for his unwavering pursuit of perfection. It wasn't solely about crafting flawles\", \"timestamp\": \"2025-01-22T13:06:31.037517\"}, {\"content\": \"{\\\"AI\\\": \\\", \\ud83c\\udfaf Imagine if I shared with you that Steve Jobs' iconic fervor wasn't solely about achieving perfection but rather the explosive emotions that ignited Apple's revolutionary breakthroughs! Steve Jobs epitomized the relentless pursuit of greatness. It wasn't just about flawless end products but about pushing the limits of technological advancement. Jobs didn't settle for anything less than the best, not just from his creations but from all those around him. His pursuit of perfection was the driving force that catapulted Apple to extraordinary heights. Beneath this pursuit, there simmered an emotional fervor that was equally iconic. Jobs was famous for his passionate outbursts, which often sparked creativity and ingenuity within his team. It was this emotional fire that transformed vague concepts into tangible innovations. Jobs' zeal wasn't just about perfecting his craft; it was the spark that illuminated the path to progress. Nonetheless, his leadership style faced challenges. \", \"timestamp\": \"2025-01-22T13:06:31.037500\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_with_cover\\\"}\", \"timestamp\": \"2025-01-22T13:04:47.076925\"}, {\"content\": \"give me a post about harry potter and a cover.\", \"timestamp\": \"2025-01-22T13:04:46.037367\"}, {\"content\": \"{\\\"AI\\\":\\\"The prompt is unrelated to LinkedIn content creation. You can search for Harry Potter fan art or use an image editing tool to create the desired image.\\\"}\", \"timestamp\": \"2025-01-22T13:04:20.155043\"}, {\"content\": \"give me a image of harry potter riding a horse.\", \"timestamp\": \"2025-01-22T13:04:19.046034\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T13:02:32.795944\"}, {\"content\": \"Regenerate the cover image of Steve Jobs looking at the mac.\", \"timestamp\": \"2025-01-22T13:02:31.441109\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T12:53:32.515355\"}, {\"content\": \"Regenerate the cover image with Steve Jobs in it.\", \"timestamp\": \"2025-01-22T12:53:31.681881\"}, {\"content\": \"{\\\"AI\\\": \\\"linkedin_post_cover\\\"}\", \"timestamp\": \"2025-01-22T12:51:40.571357\"}, {\"content\": \"generate a post cover based on the most recent topic in the conversation\", \"timestamp\": \"2025-01-22T12:51:39.040611\"}, {\"content\": \"haracter Count**: 1,866 **Word Count**: 314 --- **Alternative Short Version** \\ud83c\\udf1f Decoding Steve Jobs: Lessons in Leading with Emotional Gusto Steve Jobs' relentless pursuit of perfection often ignited fiery emotions. Though tumultuous, it sparked Apple's innovation streak. His tale illuminates that intense emotions fuel creativity yet may also spark discord. Jobs' talent at inspiring amid tempests was pivotal. His fervor, albeit overwhelming at times, steered his team towards a unified goal. His legacy guides us to harness emotions productively for pioneering breakthroughs. How do you leverage your emotions for triumph? Share your insights below! \\ud83d\\udc47 [Blank line] #LeadershipMagic #InnovativeSpirit #GrowthGreetings **Character Count**: 766 **Word Count**: 126, \\\"}\", \"timestamp\": \"2025-01-22T12:50:56.872517\"}], \\n\\n\\n.\nUsing this chat History, answer the user's prompt, \\n \\nUser's Prompt:, Generate a cover image of angry steve jobs"
+            ]
+        },
+        {
+            "id": 40,
+            "type": "PromptUtilitiesConstString",
+            "pos": [
+                -786.9656372070312,
+                -110.85233306884766
+            ],
+            "size": [
+                315,
+                58
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        52
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "title": "Prompt",
+            "properties": {
+                "Node name for S&R": "PromptUtilitiesConstString"
+            },
+            "widgets_values": [
+                "Generate a cover image of angry steve jobs"
+            ]
+        },
+        {
+            "id": 35,
+            "type": "openai",
+            "pos": [
+                -207.35594177246094,
+                566.8008422851562
+            ],
+            "size": [
+                415.7300109863281,
+                412.5800476074219
+            ],
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 53,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "response",
+                    "type": "STRING",
+                    "links": [
+                        45
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "openai"
+            },
+            "widgets_values": [
+                "gpt-3.5-turbo",
+                "Create a comprehensive blog article that synthesizes key elements from the conversation history. Follow these guidelines:\n\n1. **Structure**:\n   - Opening hook: Start with surprising statistic/question/metaphor\n   - 3 key sections with subheadings\n   - Actionable conclusion\n   - Retain the mention of any nouns you encounter in the chat history.\n\n2. **Style**:\n   - Maintain {brand_voice} tone\n   - Use vivid sensory language\n   - Include 2-3 metaphors/analogies\n   - Apply \"show don't tell\" principle\n\n3. **Content Requirements**:\n   - Highlight recurring themes from last 3 conversations\n   - Preserve technical terms used in chat history\n   - Include implied emotional subtext\n   - Reference 1-2 historical parallels if relevant\n\nAvoid direct quotes. Keep paragraphs under 4 sentences. Target audience: LinkedIn professionals.",
+                "",
+                "text",
+                0.7000000000000001,
+                1,
+                700,
+                0.3,
+                0
+            ]
+        },
+        {
+            "id": 22,
+            "type": "ShowText|pysssss",
+            "pos": [
+                209.6847381591797,
+                1166.8499755859375
+            ],
+            "size": [
+                471.69500732421875,
+                290.8873596191406
+            ],
+            "flags": {},
+            "order": 10,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "link": 55,
+                    "widget": {
+                        "name": "text"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "ShowText|pysssss"
+            },
+            "widgets_values": [
+                "",
+                "In a bustling office space, a diverse team of professionals gathers around a conference table, their faces alive with curiosity and determination. Post-it notes cover a whiteboard, showcasing a myriad of ideas sparked by their \"20% time\" brainstorming session. The room hums with the emotional intensity reminiscent of Steve Jobs, as passionate debates fuel the creative process. Each member harnesses their unique perspectives and fervor to push boundaries, united by a shared vision of innovation. As the sun sets outside, casting a warm glow through the windows, the team embodies the spirit of Google's culture, embracing failure as a stepping stone to success, ready to transform their collective passion into groundbreaking solutions."
+            ]
+        },
+        {
+            "id": 33,
+            "type": "openai",
+            "pos": [
+                220.0038299560547,
+                562.5958862304688
+            ],
+            "size": [
+                415.7300109863281,
+                412.5800476074219
+            ],
+            "flags": {},
+            "order": 9,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 45,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "response",
+                    "type": "STRING",
+                    "links": [
+                        55,
+                        56
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "openai"
+            },
+            "widgets_values": [
+                "gpt-3.5-turbo",
+                "Imagine a scene that vividly captures the essence of the article belwo. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if its about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articles mood and setting, making it feel immersive and true to the storys narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articles message. The scene description must not be more thn 1 paragraph\n\nBlog Article:\n\n",
+                "",
+                "text",
+                0.5,
+                1,
+                600,
+                0.2,
+                0
             ]
         },
         {
@@ -742,7 +696,7 @@
                 "",
                 "https://5afd1aea-8e4c-40c9-8e38-5100c6d8c2dd-us-east-2.apps.astra.datastax.com",
                 "chat_history",
-                "2e58d623-2c2e-4e0c-9f39-cc8b816642bc"
+                "92c06496-f7dc-46cf-86f7-96feb5068235"
             ]
         }
     ],
@@ -828,30 +782,6 @@
             "LATENT"
         ],
         [
-            41,
-            33,
-            0,
-            34,
-            0,
-            "STRING"
-        ],
-        [
-            42,
-            34,
-            0,
-            22,
-            0,
-            "STRING"
-        ],
-        [
-            43,
-            34,
-            0,
-            13,
-            1,
-            "STRING"
-        ],
-        [
             45,
             35,
             0,
@@ -897,6 +827,22 @@
             0,
             41,
             0,
+            "STRING"
+        ],
+        [
+            55,
+            33,
+            0,
+            22,
+            0,
+            "STRING"
+        ],
+        [
+            56,
+            33,
+            0,
+            13,
+            1,
             "STRING"
         ]
     ],
@@ -957,10 +903,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.7513148009015778,
+            "scale": 0.8264462809917354,
             "offset": [
-                964.7047537266704,
-                277.33651849332256
+                1004.1792032038725,
+                253.99472600731775
             ]
         }
     },
